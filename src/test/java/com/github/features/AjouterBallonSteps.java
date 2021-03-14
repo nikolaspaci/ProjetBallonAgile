@@ -23,7 +23,7 @@ public class AjouterBallonSteps {
     @When("je lui ajoute un ballon")
     public void je_lui_ajoute_un_ballon() {
 	this.ballon = new Ballon();
-	assertEquals(0, this.ballon.getTailleBallon());
+	assertEquals(1, this.ballon.getTailleBallon());
 	assertEquals(0., this.ballon.getPressionBallon());
 	this.sport.ajouterBallon(ballon);
     }
