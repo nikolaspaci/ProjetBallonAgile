@@ -4,5 +4,6 @@ public class ObusExplosif extends AbstractMunition {
 
 	public ObusExplosif() {
 		this.degatMunition = 170;
+		this.calibre = 12;
 	}
 }

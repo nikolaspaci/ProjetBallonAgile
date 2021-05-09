@@ -20,4 +20,15 @@ public class MunitionFactory {
 		}
 	}
 
+	public static class Of {
+		private TypeMunition type;
+
+		public Of(TypeMunition type) {
+			this.type = type;
+		}
+
+		public AbstractMunition get() {
+			return getMunition(type);
+		}
+	}
 }

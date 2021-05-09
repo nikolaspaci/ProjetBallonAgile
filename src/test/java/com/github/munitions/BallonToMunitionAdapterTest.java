@@ -20,7 +20,6 @@ public class BallonToMunitionAdapterTest {
 
 	@Test
 	public void testNewMunitionToBallonAdapter() {
-		ballon = new Ballon();
 		assertEquals(0, ballon.getPressionBallon());
 		assertEquals(0, ballon.getTailleBallon());
 		munition = new BallonToMunitionAdapter(ballon);

@@ -22,6 +22,7 @@ public class BallonToMunitionAdapter extends AbstractMunition {
 
 	private void setTailleBallon() {
 		this.ballon.setTailleBallon(TAILLE_BALLON_MUNITION);
+		this.calibre = TAILLE_BALLON_MUNITION;
 	}
 
 }
