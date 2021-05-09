@@ -27,7 +27,7 @@ public class BallonTest {
 	}
 
 	@BeforeEach
-	public void setUp()	{
+	public void setUp() {
 		ballon = new Ballon();
 		footBall = new Sport("Football");
 		basketBall = new Sport("BasketBall");
@@ -39,8 +39,7 @@ public class BallonTest {
 	 * Méthode appelée après chaque appel de méthode de test.
 	 */
 	@AfterEach
-	public void tearDown() // throws java.lang.Exception
-	{
+	public void tearDown() {
 		// Libérez ici les ressources engagées par setUp()
 	}
 
