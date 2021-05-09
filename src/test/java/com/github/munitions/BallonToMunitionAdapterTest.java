@@ -7,9 +7,9 @@ import org.junit.jupiter.api.Test;
 
 import com.github.modelisation.Ballon;
 import com.github.modelisation.munitions.AbstractMunition;
-import com.github.modelisation.munitions.MunitionToBallonAdapter;
+import com.github.modelisation.munitions.BallonToMunitionAdapter;
 
-public class MunitionToBallonAdapterTest {
+public class BallonToMunitionAdapterTest {
 	private Ballon ballon;
 	private AbstractMunition munition;
 
@@ -23,10 +23,10 @@ public class MunitionToBallonAdapterTest {
 		ballon = new Ballon();
 		assertEquals(0, ballon.getPressionBallon());
 		assertEquals(0, ballon.getTailleBallon());
-		munition = new MunitionToBallonAdapter(ballon);
-		assertEquals(MunitionToBallonAdapter.PRESSION_BALLON, ballon.getPressionBallon());
-		assertEquals(MunitionToBallonAdapter.TAILLE_BALLON_MUNITION, ballon.getTailleBallon());
-		assertEquals(MunitionToBallonAdapter.DEGAT_BALLON, munition.getDegatMunition());
+		munition = new BallonToMunitionAdapter(ballon);
+		assertEquals(BallonToMunitionAdapter.PRESSION_BALLON, ballon.getPressionBallon());
+		assertEquals(BallonToMunitionAdapter.TAILLE_BALLON_MUNITION, ballon.getTailleBallon());
+		assertEquals(BallonToMunitionAdapter.DEGAT_BALLON, munition.getDegatMunition());
 	}
 
 }

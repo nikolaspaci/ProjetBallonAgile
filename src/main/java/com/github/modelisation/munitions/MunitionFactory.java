@@ -10,7 +10,7 @@ public class MunitionFactory {
 	public static AbstractMunition getMunition(TypeMunition typeMunition) {
 		switch (typeMunition) {
 		case BALLON:
-			return new MunitionToBallonAdapter(new Ballon());
+			return new BallonToMunitionAdapter(new Ballon());
 		case OBUS_EXPLOSIF:
 			return new ObusExplosif();
 		case OBUS_PERFORANT:
