@@ -54,7 +54,7 @@ public class Ballon {
 			this.sport.retirerBallon(this);
 		}
 		this.sport = nouveauSport;
-		if (!nouveauSport.getSetBallons().contains(this)) {
+		if (nouveauSport!=null && !nouveauSport.getSetBallons().contains(this)) {
 			nouveauSport.ajouterBallon(this);
 		}
 	}
