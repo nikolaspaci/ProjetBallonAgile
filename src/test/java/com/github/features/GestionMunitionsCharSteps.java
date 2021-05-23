@@ -29,7 +29,7 @@ public class GestionMunitionsCharSteps {
         this.shar.ajouterMunition(munition);
     }
 
-    @Then("la munition de nouveau type est bien ajoutÃ©e dans la caisse a munition du char")
+    @Then("la munition de nouveau type est bien ajoutée dans la caisse a munition du char")
     public void le_est_bien_ajouter_dans_la_caisse_a_munition_du_char() {
         Assertions.assertTrue(this.shar.getMunitions().getLast().equals(munition));
     }
