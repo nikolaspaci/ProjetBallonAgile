@@ -20,7 +20,6 @@ class SportTest {
 		ballonFootballU11 = new Ballon();
 		ballonFootballU15 = new Ballon();
 		football = new Sport("Football");
-
 	}
 
 	@Test

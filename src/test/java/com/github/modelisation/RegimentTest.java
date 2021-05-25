@@ -1,6 +1,12 @@
 package com.github.modelisation;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNull;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.Set;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
@@ -9,10 +15,6 @@ import org.junit.jupiter.api.Test;
 import com.github.modelisation.gestionchar.Char;
 import com.github.modelisation.gestionchar.Mecanicien;
 import com.github.modelisation.gestionchar.Regiment;
-
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.Set;
 
 public class RegimentTest {
 	private Regiment regiment;

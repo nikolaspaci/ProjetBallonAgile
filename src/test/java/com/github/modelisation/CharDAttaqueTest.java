@@ -1,6 +1,7 @@
 package com.github.modelisation;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -12,6 +13,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import com.github.modelisation.gestionchar.CharDAttaque;
+import com.github.modelisation.gestionchar.UncompatibleCalibreException;
 import com.github.modelisation.munitions.AbstractMunition;
 import com.github.modelisation.munitions.BallonToMunitionAdapter;
 import com.github.modelisation.munitions.MunitionFactory;
@@ -56,5 +58,13 @@ public class CharDAttaqueTest {
 		assertEquals(CharDAttaque.MAX_MUNITION, charDattaque.getMunitionCount());
 		IntStream.range(0, charDattaque.getMunitionCount() - 1).forEach(x -> charDattaque.tirer());
 		assertEquals(1, charDattaque.getMunitionCount());
+	}
+
+	@Test
+	public void testTirerMunitionIncompatible() {
+		charDattaque = new CharDAttaque("Renault", BallonToMunitionAdapter.TAILLE_BALLON_MUNITION);
+		assertThrows(UncompatibleCalibreException.class, () -> {
+			charDattaque.ajouterMunition(MunitionFactory.getMunition(TypeMunition.OBUS_PERFORANT));
+		});
 	}
 }

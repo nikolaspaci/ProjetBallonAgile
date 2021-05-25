@@ -1,12 +1,16 @@
 package com.github.features;
 
-import cucumber.api.java.en.Given;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
+
+import com.github.modelisation.gestionchar.Char;
+import com.github.modelisation.gestionchar.Mecanicien;
+
 import cucumber.api.java.en.And;
+import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import com.github.modelisation.gestionchar.*;
-
-import static org.junit.Assert.*;
 
 public class ModifierCalibreSteps {
 
