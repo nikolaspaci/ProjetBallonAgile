@@ -8,7 +8,7 @@ Feature: Accepter les differentes munitions disponibles pour un char
   @tag1
   Scenario Outline: Utiliser des munitions differentes simultanement
     Given un mecanicien <nomMecanicien>
-    And le char de calibre d attaque <calibre> fabrique par <fabriquant>
+    And le char d attaque de calibre <calibre> fabrique par <fabriquant>
     And sa caisse de munitions contient deja une munition de type <typeMunitionAncien>
     When il veut utiliser un <typeMunitionNouveau> en tant que munition
     Then la munition de nouveau type est bien ajoutée dans la caisse a munition du char
