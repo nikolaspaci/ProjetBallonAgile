@@ -1,0 +1,919 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_7tNfYL0tEeumIcEGETCkMg">
+  <modelElement href="ProjetBallonAgile.uml#_8Fv7ML0tEeumIcEGETCkMg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_8gFt0L0tEeumIcEGETCkMg" targetItem="_8gRUAL0tEeumIcEGETCkMg" sourceItem="_8gFGwL0tEeumIcEGETCkMg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_8gJYML0tEeumIcEGETCkMg" targetItem="_8gRUDL0tEeumIcEGETCkMg" sourceItem="_8gIxIL0tEeumIcEGETCkMg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_8gPe0L0tEeumIcEGETCkMg" sourceAnchor="174.0,0.0" targetAnchor="129.0,156.0" target="_8gRUAL0tEeumIcEGETCkMg" source="_8iEq0L0tEeumIcEGETCkMg">
+    <modelElement href="ProjetBallonAgile.uml#_8RU5EL0tEeumIcEGETCkMg"/>
+    <stereotypes xmi:id="_8gQF4L0tEeumIcEGETCkMg" name="Reference">
+      <modelElement href="ProjetBallonAgile.uml#_8RWHML0tEeumIcEGETCkMg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_8gQF4b0tEeumIcEGETCkMg" text="">
+      <visualProperties xmi:id="_85zOUL0tEeumIcEGETCkMg" position="-82.5,22.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_8gQF4r0tEeumIcEGETCkMg" aggregationKind="NONE" name="">
+      <modelElement href="ProjetBallonAgile.uml#_8RU5Eb0tEeumIcEGETCkMg"/>
+      <visualProperties xmi:id="_85ynQL0tEeumIcEGETCkMg" position="2.5,-56.66666666666666"/>
+      <visibility xmi:id="_8gQF470tEeumIcEGETCkMg" label="+"/>
+      <cardinality xmi:id="_8gQF5L0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_8gQF5b0tEeumIcEGETCkMg" aggregationKind="NONE" name="sport" navigable="true">
+      <modelElement href="ProjetBallonAgile.uml#_8QnucL0tEeumIcEGETCkMg"/>
+      <visualProperties xmi:id="_85zOUb0tEeumIcEGETCkMg" position="-43.5,11.666666666666686"/>
+      <visibility xmi:id="_8gQF5r0tEeumIcEGETCkMg" label="+"/>
+      <cardinality xmi:id="_8gQF570tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_8gQs8L0tEeumIcEGETCkMg" sourceAnchor="159.0,156.0" targetAnchor="204.0,0.0" target="_8iEq0L0tEeumIcEGETCkMg" source="_8gRUAL0tEeumIcEGETCkMg">
+    <modelElement href="ProjetBallonAgile.uml#_8RWHMb0tEeumIcEGETCkMg"/>
+    <stereotypes xmi:id="_8gQs8b0tEeumIcEGETCkMg" name="Reference">
+      <modelElement href="ProjetBallonAgile.uml#_8RWuQL0tEeumIcEGETCkMg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_8gQs8r0tEeumIcEGETCkMg" text="">
+      <visualProperties xmi:id="_85yAML0tEeumIcEGETCkMg" position="41.5,-38.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_8gQs870tEeumIcEGETCkMg" aggregationKind="NONE" name="">
+      <modelElement href="ProjetBallonAgile.uml#_8RWHMr0tEeumIcEGETCkMg"/>
+      <visualProperties xmi:id="_85xZIb0tEeumIcEGETCkMg" position="2.5,11.666666666666657"/>
+      <visibility xmi:id="_8gQs9L0tEeumIcEGETCkMg" label="+"/>
+      <cardinality xmi:id="_8gQs9b0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_8gQs9r0tEeumIcEGETCkMg" aggregationKind="NONE" name="setBallons" navigable="true">
+      <modelElement href="ProjetBallonAgile.uml#_8QoVgb0tEeumIcEGETCkMg"/>
+      <visualProperties xmi:id="_85yAMb0tEeumIcEGETCkMg" position="41.5,-46.0"/>
+      <visibility xmi:id="_8gQs970tEeumIcEGETCkMg" label="+"/>
+      <cardinality xmi:id="_8gQs-L0tEeumIcEGETCkMg" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_8iC1ob0tEeumIcEGETCkMg" targetItem="_8iEq0L0tEeumIcEGETCkMg" sourceItem="_8iC1oL0tEeumIcEGETCkMg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_8iDcsL0tEeumIcEGETCkMg" targetItem="_8iEq370tEeumIcEGETCkMg" sourceItem="_8iC1or0tEeumIcEGETCkMg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_8ib3ML0tEeumIcEGETCkMg" sourceAnchor="169.0,0.0" targetAnchor="171.0,99.0" target="_8idFWL0tEeumIcEGETCkMg" source="_8i5KML0tEeumIcEGETCkMg">
+    <modelElement href="ProjetBallonAgile.uml#_8RYjcb0tEeumIcEGETCkMg"/>
+    <stereotypes xmi:id="_8ib3Mb0tEeumIcEGETCkMg" name="Reference">
+      <modelElement href="ProjetBallonAgile.uml#_8RZxkL0tEeumIcEGETCkMg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_8ib3Mr0tEeumIcEGETCkMg" text="">
+      <visualProperties xmi:id="_8524sL0tEeumIcEGETCkMg" position="-39.0,-9.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_8ib3M70tEeumIcEGETCkMg" aggregationKind="NONE" name="">
+      <modelElement href="ProjetBallonAgile.uml#_8RYjcr0tEeumIcEGETCkMg"/>
+      <visualProperties xmi:id="_851qkL0tEeumIcEGETCkMg" position="2.0,-51.0"/>
+      <visibility xmi:id="_8ib3NL0tEeumIcEGETCkMg" label="+"/>
+      <cardinality xmi:id="_8ib3Nb0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_8ib3Nr0tEeumIcEGETCkMg" aggregationKind="NONE" name="mecaniciens" navigable="true">
+      <modelElement href="ProjetBallonAgile.uml#_8Qt1EL0tEeumIcEGETCkMg"/>
+      <visualProperties xmi:id="_853fwL0tEeumIcEGETCkMg" position="-122.0,1.0"/>
+      <stereotypes xmi:id="_8ib3N70tEeumIcEGETCkMg" name="LegacyStyledElement">
+        <modelElement href="ProjetBallonAgile.uml#_8Qt1Eb0tEeumIcEGETCkMg"/>
+      </stereotypes>
+      <visibility xmi:id="_8ib3OL0tEeumIcEGETCkMg" label="+"/>
+      <cardinality xmi:id="_8ib3Ob0tEeumIcEGETCkMg" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_8iceQL0tEeumIcEGETCkMg" sourceAnchor="297.0,46.0" targetAnchor="0.0,49.0" target="_8idFWL0tEeumIcEGETCkMg" source="_8imPQL0tEeumIcEGETCkMg">
+    <modelElement href="ProjetBallonAgile.uml#_8RQAkL0tEeumIcEGETCkMg"/>
+    <nameVisual xmi:id="_8iceQb0tEeumIcEGETCkMg" text="">
+      <visualProperties xmi:id="_851DgL0tEeumIcEGETCkMg" position="-5.0,-19.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_8iceQr0tEeumIcEGETCkMg" aggregationKind="NONE" name="shar" navigable="true">
+      <modelElement href="ProjetBallonAgile.uml#_8Qsm8L0tEeumIcEGETCkMg"/>
+      <visualProperties xmi:id="_850ccL0tEeumIcEGETCkMg" position="22.0,2.0"/>
+      <visibility xmi:id="_8iceQ70tEeumIcEGETCkMg" label="+"/>
+      <cardinality xmi:id="_8iceRL0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_8iceRb0tEeumIcEGETCkMg" aggregationKind="NONE" name="">
+      <modelElement href="ProjetBallonAgile.uml#_8RQAkb0tEeumIcEGETCkMg"/>
+      <visualProperties xmi:id="_851Dgb0tEeumIcEGETCkMg" position="-29.0,-47.0"/>
+      <visibility xmi:id="_8iceRr0tEeumIcEGETCkMg" label="+"/>
+      <cardinality xmi:id="_8iceR70tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_8idFUL0tEeumIcEGETCkMg" sourceAnchor="199.0,0.0" targetAnchor="201.0,99.0" target="_8idFWL0tEeumIcEGETCkMg" source="_8i5KML0tEeumIcEGETCkMg">
+    <modelElement href="ProjetBallonAgile.uml#_8RQnoL0tEeumIcEGETCkMg"/>
+    <nameVisual xmi:id="_8idFUb0tEeumIcEGETCkMg" text="">
+      <visualProperties xmi:id="_854t4L0tEeumIcEGETCkMg" position="17.0,-4.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_8idFUr0tEeumIcEGETCkMg" aggregationKind="NONE" name="regiment" navigable="true">
+      <modelElement href="ProjetBallonAgile.uml#_8Qsm8b0tEeumIcEGETCkMg"/>
+      <visualProperties xmi:id="_854G0L0tEeumIcEGETCkMg" position="41.0,-46.0"/>
+      <visibility xmi:id="_8idFU70tEeumIcEGETCkMg" label="+"/>
+      <cardinality xmi:id="_8idFVL0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_8idFVb0tEeumIcEGETCkMg" aggregationKind="NONE" name="">
+      <modelElement href="ProjetBallonAgile.uml#_8RQnob0tEeumIcEGETCkMg"/>
+      <visualProperties xmi:id="_854t4b0tEeumIcEGETCkMg" position="2.0,5.0"/>
+      <visibility xmi:id="_8idFVr0tEeumIcEGETCkMg" label="+"/>
+      <cardinality xmi:id="_8idFV70tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_8iqgsL0tEeumIcEGETCkMg" sourceAnchor="193.0,0.0" targetAnchor="148.0,99.0" superClass="_8imPQL0tEeumIcEGETCkMg" subClass="_8iuyIL0tEeumIcEGETCkMg">
+    <modelElement href="ProjetBallonAgile.uml#_8QWBob0tEeumIcEGETCkMg"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_8iuLEL0tEeumIcEGETCkMg" source="_8iuyIL0tEeumIcEGETCkMg">
+    <modelElement href="ProjetBallonAgile.uml#_8RXVUL0tEeumIcEGETCkMg"/>
+    <stereotypes xmi:id="_8iuLEb0tEeumIcEGETCkMg" name="Reference">
+      <modelElement href="ProjetBallonAgile.uml#_8RYjcL0tEeumIcEGETCkMg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_8iuLEr0tEeumIcEGETCkMg" text=""/>
+    <sourceRole xmi:id="_8iuLE70tEeumIcEGETCkMg" aggregationKind="NONE" name="">
+      <modelElement href="ProjetBallonAgile.uml#_8RXVUb0tEeumIcEGETCkMg"/>
+      <visibility xmi:id="_8iuLFL0tEeumIcEGETCkMg" label="+"/>
+      <cardinality xmi:id="_8iuLFb0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_8iuLFr0tEeumIcEGETCkMg" aggregationKind="NONE" name="munitions" navigable="true">
+      <modelElement href="ProjetBallonAgile.uml#_8QqKs70tEeumIcEGETCkMg"/>
+      <visibility xmi:id="_8iuLF70tEeumIcEGETCkMg" label="-"/>
+      <cardinality xmi:id="_8iuLGL0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_8i-CsL0tEeumIcEGETCkMg" sourceAnchor="115.0,0.0" targetAnchor="96.0,118.0" superClass="_8jTZ4L0tEeumIcEGETCkMg" subClass="_8i_Q0L0tEeumIcEGETCkMg">
+    <modelElement href="ProjetBallonAgile.uml#_8QfyoL0tEeumIcEGETCkMg"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_8jHzsL0tEeumIcEGETCkMg" sourceAnchor="432.0,108.0" targetAnchor="0.0,78.0" target="_8iEq0L0tEeumIcEGETCkMg" source="_8jK3AL0tEeumIcEGETCkMg">
+    <modelElement href="ProjetBallonAgile.uml#_8RaYoL0tEeumIcEGETCkMg"/>
+    <stereotypes xmi:id="_8jJB070tEeumIcEGETCkMg" name="Reference">
+      <modelElement href="ProjetBallonAgile.uml#_8RcN0L0tEeumIcEGETCkMg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_8jJB0L0tEeumIcEGETCkMg" text="">
+      <visualProperties xmi:id="_8558AL0tEeumIcEGETCkMg" position="-18.0,-19.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_8jJB0b0tEeumIcEGETCkMg" aggregationKind="NONE" name="">
+      <modelElement href="ProjetBallonAgile.uml#_8RaYob0tEeumIcEGETCkMg"/>
+      <visualProperties xmi:id="_855U8L0tEeumIcEGETCkMg" position="14.0,-47.0"/>
+      <visibility xmi:id="_8jKP8b0tEeumIcEGETCkMg" label="+"/>
+      <cardinality xmi:id="_8jKP8L0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_8jJB0r0tEeumIcEGETCkMg" aggregationKind="NONE" name="ballon" navigable="true">
+      <modelElement href="ProjetBallonAgile.uml#_8Q5bQ70tEeumIcEGETCkMg"/>
+      <visualProperties xmi:id="_8558Ab0tEeumIcEGETCkMg" position="-78.0,2.0"/>
+      <visibility xmi:id="_8jKP870tEeumIcEGETCkMg" label="-"/>
+      <cardinality xmi:id="_8jKP8r0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_8jIawL0tEeumIcEGETCkMg" sourceAnchor="216.0,0.0" targetAnchor="96.0,118.0" superClass="_8jTZ4L0tEeumIcEGETCkMg" subClass="_8jK3AL0tEeumIcEGETCkMg">
+    <modelElement href="ProjetBallonAgile.uml#_8QdWZL0tEeumIcEGETCkMg"/>
+    <bendpoints xmi:id="_7W-UMr0uEeumIcEGETCkMg" sourceY="-30" targetX="357" targetY="41"/>
+    <bendpoints xmi:id="_7W-UM70uEeumIcEGETCkMg" sourceX="-357" sourceY="-30" targetY="41"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_8jYSYL0tEeumIcEGETCkMg" sourceAnchor="118.0,0.0" targetAnchor="96.0,118.0" superClass="_8jTZ4L0tEeumIcEGETCkMg" subClass="_8jY5cL0tEeumIcEGETCkMg">
+    <modelElement href="ProjetBallonAgile.uml#_8QgZsL0tEeumIcEGETCkMg"/>
+    <bendpoints xmi:id="_7W-UML0uEeumIcEGETCkMg" sourceY="-30" targetX="-271" targetY="41"/>
+    <bendpoints xmi:id="_7W-UMb0uEeumIcEGETCkMg" sourceX="271" sourceY="-30" targetY="41"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_8gFGwL0tEeumIcEGETCkMg" sourceConnectionVisual="_8gFt0L0tEeumIcEGETCkMg" text="&#xD;&#xA; *&#xD;&#xA;@author Nikola,Tom&#xD;&#xA;@version" item="_8gRUAL0tEeumIcEGETCkMg">
+    <modelElement href="ProjetBallonAgile.uml#_8ROycb0tEeumIcEGETCkMg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_8gIxIL0tEeumIcEGETCkMg" sourceConnectionVisual="_8gJYML0tEeumIcEGETCkMg" text="Constructeur d'objets de classe Sport" item="_8gRUDL0tEeumIcEGETCkMg">
+    <modelElement href="ProjetBallonAgile.uml#_8ROycr0tEeumIcEGETCkMg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_8iC1oL0tEeumIcEGETCkMg" sourceConnectionVisual="_8iC1ob0tEeumIcEGETCkMg" text="Décrivez votre classe Ballon ici.&#xD;&#xA; *&#xD;&#xA;@author (votre nom)&#xD;&#xA;@version (un numéro de version ou une date)" item="_8iEq0L0tEeumIcEGETCkMg">
+    <modelElement href="ProjetBallonAgile.uml#_8ROLYL0tEeumIcEGETCkMg"/>
+    <visualProperties xmi:id="_Llql0L0uEeumIcEGETCkMg" position="330.0,-161.0" size="200.0,150.0" visible="false"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_8iC1or0tEeumIcEGETCkMg" sourceConnectionVisual="_8iDcsL0tEeumIcEGETCkMg" text="Constructeur d'objets de classe Ballon" item="_8iEq370tEeumIcEGETCkMg">
+    <modelElement href="ProjetBallonAgile.uml#_8ROycL0tEeumIcEGETCkMg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_8jY5cL0tEeumIcEGETCkMg" name="ObusPerforant" generalizations="_8jYSYL0tEeumIcEGETCkMg">
+    <modelElement href="ProjetBallonAgile.uml#_8HLekL0tEeumIcEGETCkMg"/>
+    <visualProperties xmi:id="_8jY5cb0tEeumIcEGETCkMg" position="46.0,229.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_8jY5cr0tEeumIcEGETCkMg" label="+"/>
+    <operations xmi:id="_8jY5c70tEeumIcEGETCkMg" name="ObusPerforant">
+      <modelElement href="ProjetBallonAgile.uml#_8HMssL0tEeumIcEGETCkMg"/>
+      <keywords xmi:id="_8jY5dL0tEeumIcEGETCkMg" keyword="create"/>
+      <visibility xmi:id="_8jY5db0tEeumIcEGETCkMg" label="+"/>
+      <cardinality xmi:id="_8jY5dr0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8jY5d70tEeumIcEGETCkMg">
+        <modelElement href="ProjetBallonAgile.uml#_8HMss70tEeumIcEGETCkMg"/>
+        <type xmi:id="_8jY5eL0tEeumIcEGETCkMg" name="ObusPerforant">
+          <modelElement href="ProjetBallonAgile.uml#_8HLekL0tEeumIcEGETCkMg"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_8i_Q0L0tEeumIcEGETCkMg" name="ObusExplosif" generalizations="_8i-CsL0tEeumIcEGETCkMg">
+    <modelElement href="ProjetBallonAgile.uml#_8HJpYL0tEeumIcEGETCkMg"/>
+    <visualProperties xmi:id="_8i_Q0b0tEeumIcEGETCkMg" position="320.0,230.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_8i_Q0r0tEeumIcEGETCkMg" label="+"/>
+    <operations xmi:id="_8i_Q070tEeumIcEGETCkMg" name="ObusExplosif">
+      <modelElement href="ProjetBallonAgile.uml#_8HK3gL0tEeumIcEGETCkMg"/>
+      <keywords xmi:id="_8i_Q1L0tEeumIcEGETCkMg" keyword="create"/>
+      <visibility xmi:id="_8i_Q1b0tEeumIcEGETCkMg" label="+"/>
+      <cardinality xmi:id="_8i_Q1r0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8i_Q170tEeumIcEGETCkMg">
+        <modelElement href="ProjetBallonAgile.uml#_8HK3g70tEeumIcEGETCkMg"/>
+        <type xmi:id="_8i_Q2L0tEeumIcEGETCkMg" name="ObusExplosif">
+          <modelElement href="ProjetBallonAgile.uml#_8HJpYL0tEeumIcEGETCkMg"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_8jK3AL0tEeumIcEGETCkMg" name="BallonToMunitionAdapter" associationsOut="_8jHzsL0tEeumIcEGETCkMg" generalizations="_8jIawL0tEeumIcEGETCkMg">
+    <modelElement href="ProjetBallonAgile.uml#_8G8OAb0tEeumIcEGETCkMg"/>
+    <visualProperties xmi:id="_8jK3Ab0tEeumIcEGETCkMg" position="576.0,229.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_8jK3Ar0tEeumIcEGETCkMg" label="+"/>
+    <attributes xmi:id="_8jK3A70tEeumIcEGETCkMg" defaultValue="10" name="TAILLE_BALLON_MUNITION" staticAttribute="true">
+      <modelElement href="ProjetBallonAgile.uml#_8QwRUb0tEeumIcEGETCkMg"/>
+      <visibility xmi:id="_8jK3BL0tEeumIcEGETCkMg" label="+"/>
+      <cardinality xmi:id="_8jK3Bb0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+      <type xmi:id="_8jK3Br0tEeumIcEGETCkMg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_8jK3B70tEeumIcEGETCkMg" defaultValue="7" name="PRESSION_BALLON" staticAttribute="true">
+      <modelElement href="ProjetBallonAgile.uml#_8Q40ML0tEeumIcEGETCkMg"/>
+      <visibility xmi:id="_8jK3CL0tEeumIcEGETCkMg" label="+"/>
+      <cardinality xmi:id="_8jK3Cb0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+      <type xmi:id="_8jK3Cr0tEeumIcEGETCkMg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_8jK3C70tEeumIcEGETCkMg" defaultValue="2" name="DEGAT_BALLON" staticAttribute="true">
+      <modelElement href="ProjetBallonAgile.uml#_8Q5bQb0tEeumIcEGETCkMg"/>
+      <visibility xmi:id="_8jK3DL0tEeumIcEGETCkMg" label="+"/>
+      <cardinality xmi:id="_8jK3Db0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+      <type xmi:id="_8jK3Dr0tEeumIcEGETCkMg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_8jK3D70tEeumIcEGETCkMg" name="ballon">
+      <modelElement href="ProjetBallonAgile.uml#_8Q5bQ70tEeumIcEGETCkMg"/>
+      <stereotypes xmi:id="_8jK3EL0tEeumIcEGETCkMg" name="LegacyStyledElement">
+        <modelElement href="ProjetBallonAgile.uml#_8Q6CUL0tEeumIcEGETCkMg"/>
+      </stereotypes>
+      <visibility xmi:id="_8jK3Eb0tEeumIcEGETCkMg" label="-"/>
+      <cardinality xmi:id="_8jK3Er0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+      <type xmi:id="_8jK3E70tEeumIcEGETCkMg" name="Ballon">
+        <modelElement href="ProjetBallonAgile.uml#_8GUi8L0tEeumIcEGETCkMg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_8jK3FL0tEeumIcEGETCkMg" name="setPressionBallon">
+      <modelElement href="ProjetBallonAgile.uml#_8G-DML0tEeumIcEGETCkMg"/>
+      <visibility xmi:id="_8jK3Fb0tEeumIcEGETCkMg" label="-"/>
+      <cardinality xmi:id="_8jK3Fr0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_8jK3F70tEeumIcEGETCkMg" name="setTailleBallon">
+      <modelElement href="ProjetBallonAgile.uml#_8G-DMb0tEeumIcEGETCkMg"/>
+      <visibility xmi:id="_8jK3GL0tEeumIcEGETCkMg" label="-"/>
+      <cardinality xmi:id="_8jK3Gb0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_8jK3Gr0tEeumIcEGETCkMg" name="BallonToMunitionAdapter">
+      <modelElement href="ProjetBallonAgile.uml#_8QcvUL0tEeumIcEGETCkMg"/>
+      <keywords xmi:id="_8jK3G70tEeumIcEGETCkMg" keyword="create"/>
+      <visibility xmi:id="_8jK3HL0tEeumIcEGETCkMg" label="+"/>
+      <cardinality xmi:id="_8jK3Hb0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8jK3Hr0tEeumIcEGETCkMg">
+        <modelElement href="ProjetBallonAgile.uml#_8QdWY70tEeumIcEGETCkMg"/>
+        <type xmi:id="_8jK3H70tEeumIcEGETCkMg" name="BallonToMunitionAdapter">
+          <modelElement href="ProjetBallonAgile.uml#_8G8OAb0tEeumIcEGETCkMg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8jK3IL0tEeumIcEGETCkMg" name="ballon">
+        <modelElement href="ProjetBallonAgile.uml#_8QdWYL0tEeumIcEGETCkMg"/>
+        <cardinality xmi:id="_8jK3Ib0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+        <type xmi:id="_8jK3Ir0tEeumIcEGETCkMg" name="Ballon">
+          <modelElement href="ProjetBallonAgile.uml#_8GUi8L0tEeumIcEGETCkMg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_8jTZ4L0tEeumIcEGETCkMg" name="AbstractMunition" abstractClass="true" subclassedBy="_8i-CsL0tEeumIcEGETCkMg _8jIawL0tEeumIcEGETCkMg _8jYSYL0tEeumIcEGETCkMg">
+    <modelElement href="ProjetBallonAgile.uml#_8G6Y0L0tEeumIcEGETCkMg"/>
+    <visualProperties xmi:id="_8jTZ4b0tEeumIcEGETCkMg" position="339.0,40.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_8jTZ4r0tEeumIcEGETCkMg" label="+"/>
+    <attributes xmi:id="_8jTZ470tEeumIcEGETCkMg" name="degatMunition">
+      <modelElement href="ProjetBallonAgile.uml#_8QvqQL0tEeumIcEGETCkMg"/>
+      <stereotypes xmi:id="_8jTZ5L0tEeumIcEGETCkMg" name="LegacyStyledElement">
+        <modelElement href="ProjetBallonAgile.uml#_8QvqQb0tEeumIcEGETCkMg"/>
+      </stereotypes>
+      <visibility xmi:id="_8jTZ5b0tEeumIcEGETCkMg" label="#"/>
+      <cardinality xmi:id="_8jTZ5r0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+      <type xmi:id="_8jTZ570tEeumIcEGETCkMg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_8jTZ6L0tEeumIcEGETCkMg" name="calibre">
+      <modelElement href="ProjetBallonAgile.uml#_8QvqQr0tEeumIcEGETCkMg"/>
+      <stereotypes xmi:id="_8jTZ6b0tEeumIcEGETCkMg" name="LegacyStyledElement">
+        <modelElement href="ProjetBallonAgile.uml#_8QwRUL0tEeumIcEGETCkMg"/>
+      </stereotypes>
+      <visibility xmi:id="_8jTZ6r0tEeumIcEGETCkMg" label="#"/>
+      <cardinality xmi:id="_8jTZ670tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+      <type xmi:id="_8jTZ7L0tEeumIcEGETCkMg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_8jTZ7b0tEeumIcEGETCkMg" name="getDegatMunition">
+      <modelElement href="ProjetBallonAgile.uml#_8G6_4L0tEeumIcEGETCkMg"/>
+      <visibility xmi:id="_8jTZ7r0tEeumIcEGETCkMg" label="+"/>
+      <cardinality xmi:id="_8jTZ770tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8jTZ8L0tEeumIcEGETCkMg">
+        <modelElement href="ProjetBallonAgile.uml#_8G7m8L0tEeumIcEGETCkMg"/>
+        <type xmi:id="_8jTZ8b0tEeumIcEGETCkMg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_8jTZ8r0tEeumIcEGETCkMg" name="getCalibre">
+      <modelElement href="ProjetBallonAgile.uml#_8G7m8b0tEeumIcEGETCkMg"/>
+      <visibility xmi:id="_8jTZ870tEeumIcEGETCkMg" label="+"/>
+      <cardinality xmi:id="_8jTZ9L0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8jTZ9b0tEeumIcEGETCkMg">
+        <modelElement href="ProjetBallonAgile.uml#_8G8OAL0tEeumIcEGETCkMg"/>
+        <type xmi:id="_8jTZ9r0tEeumIcEGETCkMg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_8jQWkL0tEeumIcEGETCkMg" name="TypeMunition">
+    <modelElement href="ProjetBallonAgile.uml#_8HN60L0tEeumIcEGETCkMg"/>
+    <visualProperties xmi:id="_8jQWkb0tEeumIcEGETCkMg" position="47.0,338.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_8jQWkr0tEeumIcEGETCkMg" name="LegacyStyledElement">
+      <modelElement href="ProjetBallonAgile.uml#_8HOh4L0tEeumIcEGETCkMg"/>
+    </stereotypes>
+    <visibility xmi:id="_8jQWk70tEeumIcEGETCkMg" label="+"/>
+    <literals xmi:id="_8jQWlL0tEeumIcEGETCkMg" name="BALLON">
+      <modelElement href="ProjetBallonAgile.uml#_8HOh4b0tEeumIcEGETCkMg"/>
+    </literals>
+    <literals xmi:id="_8jQWlb0tEeumIcEGETCkMg" name="OBUS_PERFORANT">
+      <modelElement href="ProjetBallonAgile.uml#_8HPI8L0tEeumIcEGETCkMg"/>
+    </literals>
+    <literals xmi:id="_8jQWlr0tEeumIcEGETCkMg" name="OBUS_EXPLOSIF">
+      <modelElement href="ProjetBallonAgile.uml#_8HPI8b0tEeumIcEGETCkMg"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_8jBtEL0tEeumIcEGETCkMg" name="MunitionFactory">
+    <modelElement href="ProjetBallonAgile.uml#_8HAfcL0tEeumIcEGETCkMg"/>
+    <visualProperties xmi:id="_8jBtEb0tEeumIcEGETCkMg" position="47.0,473.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_8jBtEr0tEeumIcEGETCkMg" label="+"/>
+    <operations xmi:id="_8jBtE70tEeumIcEGETCkMg" name="MunitionFactory">
+      <modelElement href="ProjetBallonAgile.uml#_8HCUoL0tEeumIcEGETCkMg"/>
+      <keywords xmi:id="_8jBtFL0tEeumIcEGETCkMg" keyword="create"/>
+      <stereotypes xmi:id="_8jBtFb0tEeumIcEGETCkMg" name="LegacyStyledElement">
+        <modelElement href="ProjetBallonAgile.uml#_8HC7sL0tEeumIcEGETCkMg"/>
+      </stereotypes>
+      <visibility xmi:id="_8jBtFr0tEeumIcEGETCkMg" label="-"/>
+      <cardinality xmi:id="_8jBtF70tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8jBtGL0tEeumIcEGETCkMg">
+        <modelElement href="ProjetBallonAgile.uml#_8HC7sb0tEeumIcEGETCkMg"/>
+        <type xmi:id="_8jBtGb0tEeumIcEGETCkMg" name="MunitionFactory">
+          <modelElement href="ProjetBallonAgile.uml#_8HAfcL0tEeumIcEGETCkMg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_8jBtGr0tEeumIcEGETCkMg" name="getMunition" staticOperation="true">
+      <modelElement href="ProjetBallonAgile.uml#_8QekgL0tEeumIcEGETCkMg"/>
+      <visibility xmi:id="_8jBtG70tEeumIcEGETCkMg" label="+"/>
+      <cardinality xmi:id="_8jBtHL0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8jBtHb0tEeumIcEGETCkMg">
+        <modelElement href="ProjetBallonAgile.uml#_8Qekgr0tEeumIcEGETCkMg"/>
+        <type xmi:id="_8jBtHr0tEeumIcEGETCkMg" name="AbstractMunition">
+          <modelElement href="ProjetBallonAgile.uml#_8G6Y0L0tEeumIcEGETCkMg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8jBtH70tEeumIcEGETCkMg" name="typeMunition">
+        <modelElement href="ProjetBallonAgile.uml#_8Qekgb0tEeumIcEGETCkMg"/>
+        <cardinality xmi:id="_8jBtIL0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+        <type xmi:id="_8jBtIb0tEeumIcEGETCkMg" name="TypeMunition">
+          <modelElement href="ProjetBallonAgile.uml#_8HN60L0tEeumIcEGETCkMg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_8jFXcL0tEeumIcEGETCkMg" name="Of">
+    <modelElement href="ProjetBallonAgile.uml#_8HEJ0L0tEeumIcEGETCkMg"/>
+    <visualProperties xmi:id="_8jFXcb0tEeumIcEGETCkMg" position="237.0,334.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_8jFXcr0tEeumIcEGETCkMg" keyword="static"/>
+    <visibility xmi:id="_8jFXc70tEeumIcEGETCkMg" label="+"/>
+    <attributes xmi:id="_8jFXdL0tEeumIcEGETCkMg" name="type">
+      <modelElement href="ProjetBallonAgile.uml#_8Q6pYL0tEeumIcEGETCkMg"/>
+      <stereotypes xmi:id="_8jFXdb0tEeumIcEGETCkMg" name="LegacyStyledElement">
+        <modelElement href="ProjetBallonAgile.uml#_8Q6pYb0tEeumIcEGETCkMg"/>
+      </stereotypes>
+      <visibility xmi:id="_8jFXdr0tEeumIcEGETCkMg" label="-"/>
+      <cardinality xmi:id="_8jFXd70tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+      <type xmi:id="_8jFXeL0tEeumIcEGETCkMg" name="TypeMunition">
+        <modelElement href="ProjetBallonAgile.uml#_8HN60L0tEeumIcEGETCkMg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_8jFXeb0tEeumIcEGETCkMg" name="get">
+      <modelElement href="ProjetBallonAgile.uml#_8HFX8L0tEeumIcEGETCkMg"/>
+      <visibility xmi:id="_8jFXer0tEeumIcEGETCkMg" label="+"/>
+      <cardinality xmi:id="_8jFXe70tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8jFXfL0tEeumIcEGETCkMg">
+        <modelElement href="ProjetBallonAgile.uml#_8QfLlL0tEeumIcEGETCkMg"/>
+        <type xmi:id="_8jFXfb0tEeumIcEGETCkMg" name="AbstractMunition">
+          <modelElement href="ProjetBallonAgile.uml#_8G6Y0L0tEeumIcEGETCkMg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_8jFXfr0tEeumIcEGETCkMg" name="Of">
+      <modelElement href="ProjetBallonAgile.uml#_8Qekg70tEeumIcEGETCkMg"/>
+      <keywords xmi:id="_8jFXf70tEeumIcEGETCkMg" keyword="create"/>
+      <visibility xmi:id="_8jFXgL0tEeumIcEGETCkMg" label="+"/>
+      <cardinality xmi:id="_8jFXgb0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8jFXgr0tEeumIcEGETCkMg">
+        <modelElement href="ProjetBallonAgile.uml#_8QfLk70tEeumIcEGETCkMg"/>
+        <type xmi:id="_8jFXg70tEeumIcEGETCkMg" name="Of">
+          <modelElement href="ProjetBallonAgile.uml#_8HEJ0L0tEeumIcEGETCkMg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8jFXhL0tEeumIcEGETCkMg" name="type">
+        <modelElement href="ProjetBallonAgile.uml#_8QfLkL0tEeumIcEGETCkMg"/>
+        <cardinality xmi:id="_8jFXhb0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+        <type xmi:id="_8jFXhr0tEeumIcEGETCkMg" name="TypeMunition">
+          <modelElement href="ProjetBallonAgile.uml#_8HN60L0tEeumIcEGETCkMg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_8ih90L0tEeumIcEGETCkMg" name="UncompatibleCalibreException">
+    <modelElement href="ProjetBallonAgile.uml#_8G2HYL0tEeumIcEGETCkMg"/>
+    <visualProperties xmi:id="_8ih90b0tEeumIcEGETCkMg" position="47.0,565.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_8ih90r0tEeumIcEGETCkMg" label="+"/>
+    <operations xmi:id="_8ih9070tEeumIcEGETCkMg" name="UncompatibleCalibreException">
+      <modelElement href="ProjetBallonAgile.uml#_8G4joL0tEeumIcEGETCkMg"/>
+      <keywords xmi:id="_8ih91L0tEeumIcEGETCkMg" keyword="create"/>
+      <visibility xmi:id="_8ih91b0tEeumIcEGETCkMg" label="+"/>
+      <cardinality xmi:id="_8ih91r0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8ih9170tEeumIcEGETCkMg">
+        <modelElement href="ProjetBallonAgile.uml#_8G5Ks70tEeumIcEGETCkMg"/>
+        <type xmi:id="_8ih92L0tEeumIcEGETCkMg" name="UncompatibleCalibreException">
+          <modelElement href="ProjetBallonAgile.uml#_8G2HYL0tEeumIcEGETCkMg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8ih92b0tEeumIcEGETCkMg" name="s">
+        <modelElement href="ProjetBallonAgile.uml#_8G5KsL0tEeumIcEGETCkMg"/>
+        <cardinality xmi:id="_8ih92r0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+        <type xmi:id="_8ih9270tEeumIcEGETCkMg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_8imPQL0tEeumIcEGETCkMg" name="Char" associationsOut="_8iceQL0tEeumIcEGETCkMg" subclassedBy="_8iqgsL0tEeumIcEGETCkMg">
+    <modelElement href="ProjetBallonAgile.uml#_8GjzgL0tEeumIcEGETCkMg"/>
+    <visualProperties xmi:id="_8imPQb0tEeumIcEGETCkMg" position="581.0,449.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_8imPQr0tEeumIcEGETCkMg" label="+"/>
+    <attributes xmi:id="_8imPQ70tEeumIcEGETCkMg" name="fabriquant">
+      <modelElement href="ProjetBallonAgile.uml#_8QpjoL0tEeumIcEGETCkMg"/>
+      <visibility xmi:id="_8imPRL0tEeumIcEGETCkMg" label="+"/>
+      <cardinality xmi:id="_8imPRb0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+      <type xmi:id="_8imPRr0tEeumIcEGETCkMg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_8imPR70tEeumIcEGETCkMg" name="calibre">
+      <modelElement href="ProjetBallonAgile.uml#_8Qpjob0tEeumIcEGETCkMg"/>
+      <visibility xmi:id="_8imPSL0tEeumIcEGETCkMg" label="+"/>
+      <cardinality xmi:id="_8imPSb0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+      <type xmi:id="_8imPSr0tEeumIcEGETCkMg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_8imPS70tEeumIcEGETCkMg" name="Char">
+      <modelElement href="ProjetBallonAgile.uml#_8GlBoL0tEeumIcEGETCkMg"/>
+      <keywords xmi:id="_8imPTL0tEeumIcEGETCkMg" keyword="create"/>
+      <visibility xmi:id="_8imPTb0tEeumIcEGETCkMg" label="+"/>
+      <cardinality xmi:id="_8imPTr0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8imPT70tEeumIcEGETCkMg">
+        <modelElement href="ProjetBallonAgile.uml#_8Glosb0tEeumIcEGETCkMg"/>
+        <type xmi:id="_8imPUL0tEeumIcEGETCkMg" name="Char">
+          <modelElement href="ProjetBallonAgile.uml#_8GjzgL0tEeumIcEGETCkMg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8imPUb0tEeumIcEGETCkMg" name="fabriquant">
+        <modelElement href="ProjetBallonAgile.uml#_8GlBob0tEeumIcEGETCkMg"/>
+        <cardinality xmi:id="_8imPUr0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+        <type xmi:id="_8imPU70tEeumIcEGETCkMg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_8imPVL0tEeumIcEGETCkMg" name="calibre">
+        <modelElement href="ProjetBallonAgile.uml#_8GlBor0tEeumIcEGETCkMg"/>
+        <cardinality xmi:id="_8imPVb0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+        <type xmi:id="_8imPVr0tEeumIcEGETCkMg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_8iuyIL0tEeumIcEGETCkMg" name="CharDAttaque" associationsOut="_8iuLEL0tEeumIcEGETCkMg" generalizations="_8iqgsL0tEeumIcEGETCkMg">
+    <modelElement href="ProjetBallonAgile.uml#_8GmPwL0tEeumIcEGETCkMg"/>
+    <visualProperties xmi:id="_8iuyIb0tEeumIcEGETCkMg" position="536.0,592.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_8iuyIr0tEeumIcEGETCkMg" name="LegacyStyledElement">
+      <modelElement href="ProjetBallonAgile.uml#_8Gnd4L0tEeumIcEGETCkMg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_8iuyI70tEeumIcEGETCkMg" name="Annotations">
+      <modelElement href="ProjetBallonAgile.uml#_8GqhML0tEeumIcEGETCkMg"/>
+    </stereotypes>
+    <visibility xmi:id="_8iuyJL0tEeumIcEGETCkMg" label="+"/>
+    <attributes xmi:id="_8iuyJb0tEeumIcEGETCkMg" defaultValue="10" name="MAX_MUNITION" staticAttribute="true">
+      <modelElement href="ProjetBallonAgile.uml#_8QqKsL0tEeumIcEGETCkMg"/>
+      <stereotypes xmi:id="_8iuyJr0tEeumIcEGETCkMg" name="StyledElement">
+        <modelElement href="ProjetBallonAgile.uml#_8QqKsr0tEeumIcEGETCkMg"/>
+      </stereotypes>
+      <visibility xmi:id="_8iuyJ70tEeumIcEGETCkMg" label="+"/>
+      <cardinality xmi:id="_8iuyKL0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+      <type xmi:id="_8iuyKb0tEeumIcEGETCkMg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_8iuyKr0tEeumIcEGETCkMg" name="munitions">
+      <modelElement href="ProjetBallonAgile.uml#_8QqKs70tEeumIcEGETCkMg"/>
+      <stereotypes xmi:id="_8iuyK70tEeumIcEGETCkMg" name="Generics">
+        <modelElement href="ProjetBallonAgile.uml#_8QqxwL0tEeumIcEGETCkMg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_8iuyLL0tEeumIcEGETCkMg" name="Annotations">
+        <modelElement href="ProjetBallonAgile.uml#_8Qr_4L0tEeumIcEGETCkMg"/>
+      </stereotypes>
+      <visibility xmi:id="_8iuyLb0tEeumIcEGETCkMg" label="-"/>
+      <cardinality xmi:id="_8iuyLr0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+      <type xmi:id="_8iuyL70tEeumIcEGETCkMg" name="Deque">
+        <modelElement href="ProjetBallonAgile.uml#_8QSXQb0tEeumIcEGETCkMg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_8iuyML0tEeumIcEGETCkMg" name="CharDAttaque">
+      <modelElement href="ProjetBallonAgile.uml#_8GoE8L0tEeumIcEGETCkMg"/>
+      <keywords xmi:id="_8iuyMb0tEeumIcEGETCkMg" keyword="create"/>
+      <stereotypes xmi:id="_8iuyMr0tEeumIcEGETCkMg" name="StyledElement">
+        <modelElement href="ProjetBallonAgile.uml#_8GosBL0tEeumIcEGETCkMg"/>
+      </stereotypes>
+      <visibility xmi:id="_8iuyM70tEeumIcEGETCkMg" label="+"/>
+      <cardinality xmi:id="_8iuyNL0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8iuyNb0tEeumIcEGETCkMg">
+        <modelElement href="ProjetBallonAgile.uml#_8GosA70tEeumIcEGETCkMg"/>
+        <type xmi:id="_8iuyNr0tEeumIcEGETCkMg" name="CharDAttaque">
+          <modelElement href="ProjetBallonAgile.uml#_8GmPwL0tEeumIcEGETCkMg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8iuyN70tEeumIcEGETCkMg" name="fabriquant">
+        <modelElement href="ProjetBallonAgile.uml#_8GoE8b0tEeumIcEGETCkMg"/>
+        <cardinality xmi:id="_8iuyOL0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+        <type xmi:id="_8iuyOb0tEeumIcEGETCkMg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_8iuyOr0tEeumIcEGETCkMg" name="calibre">
+        <modelElement href="ProjetBallonAgile.uml#_8GosAL0tEeumIcEGETCkMg"/>
+        <cardinality xmi:id="_8iuyO70tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+        <type xmi:id="_8iuyPL0tEeumIcEGETCkMg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8iuyPb0tEeumIcEGETCkMg" name="getMunitionCount">
+      <modelElement href="ProjetBallonAgile.uml#_8GpTEL0tEeumIcEGETCkMg"/>
+      <stereotypes xmi:id="_8iuyPr0tEeumIcEGETCkMg" name="StyledElement">
+        <modelElement href="ProjetBallonAgile.uml#_8GpTEr0tEeumIcEGETCkMg"/>
+      </stereotypes>
+      <visibility xmi:id="_8iuyP70tEeumIcEGETCkMg" label="+"/>
+      <cardinality xmi:id="_8iuyQL0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8iuyQb0tEeumIcEGETCkMg">
+        <modelElement href="ProjetBallonAgile.uml#_8GpTEb0tEeumIcEGETCkMg"/>
+        <type xmi:id="_8iuyQr0tEeumIcEGETCkMg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_8iuyQ70tEeumIcEGETCkMg" name="tirer">
+      <modelElement href="ProjetBallonAgile.uml#_8Gp6IL0tEeumIcEGETCkMg"/>
+      <stereotypes xmi:id="_8iuyRL0tEeumIcEGETCkMg" name="StyledElement">
+        <modelElement href="ProjetBallonAgile.uml#_8Gp6Ib0tEeumIcEGETCkMg"/>
+      </stereotypes>
+      <visibility xmi:id="_8iuyRb0tEeumIcEGETCkMg" label="+"/>
+      <cardinality xmi:id="_8iuyRr0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_8iuyR70tEeumIcEGETCkMg" name="ajouterMunition">
+      <modelElement href="ProjetBallonAgile.uml#_8QVakL0tEeumIcEGETCkMg"/>
+      <stereotypes xmi:id="_8iuySL0tEeumIcEGETCkMg" name="StyledElement">
+        <modelElement href="ProjetBallonAgile.uml#_8QWBoL0tEeumIcEGETCkMg"/>
+      </stereotypes>
+      <visibility xmi:id="_8iuySb0tEeumIcEGETCkMg" label="+"/>
+      <cardinality xmi:id="_8iuySr0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_8iuyS70tEeumIcEGETCkMg" name="munition">
+        <modelElement href="ProjetBallonAgile.uml#_8QVakb0tEeumIcEGETCkMg"/>
+        <cardinality xmi:id="_8iuyTL0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+        <type xmi:id="_8iuyTb0tEeumIcEGETCkMg" name="AbstractMunition">
+          <modelElement href="ProjetBallonAgile.uml#_8G6Y0L0tEeumIcEGETCkMg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_8idFWL0tEeumIcEGETCkMg" name="Mecanicien" associationsIn="_8ib3ML0tEeumIcEGETCkMg _8iceQL0tEeumIcEGETCkMg _8idFUL0tEeumIcEGETCkMg">
+    <modelElement href="ProjetBallonAgile.uml#_8GtkgL0tEeumIcEGETCkMg"/>
+    <visualProperties xmi:id="_8idFWb0tEeumIcEGETCkMg" position="981.0,446.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_8idFWr0tEeumIcEGETCkMg" label="+"/>
+    <attributes xmi:id="_8idFW70tEeumIcEGETCkMg" name="name">
+      <modelElement href="ProjetBallonAgile.uml#_8Qr_4r0tEeumIcEGETCkMg"/>
+      <visibility xmi:id="_8idFXL0tEeumIcEGETCkMg" label="+"/>
+      <cardinality xmi:id="_8idFXb0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+      <type xmi:id="_8idFXr0tEeumIcEGETCkMg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_8idFX70tEeumIcEGETCkMg" name="shar">
+      <modelElement href="ProjetBallonAgile.uml#_8Qsm8L0tEeumIcEGETCkMg"/>
+      <visibility xmi:id="_8idFYL0tEeumIcEGETCkMg" label="+"/>
+      <cardinality xmi:id="_8idFYb0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+      <type xmi:id="_8idFYr0tEeumIcEGETCkMg" name="Char">
+        <modelElement href="ProjetBallonAgile.uml#_8GjzgL0tEeumIcEGETCkMg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_8idFY70tEeumIcEGETCkMg" name="regiment">
+      <modelElement href="ProjetBallonAgile.uml#_8Qsm8b0tEeumIcEGETCkMg"/>
+      <visibility xmi:id="_8idFZL0tEeumIcEGETCkMg" label="+"/>
+      <cardinality xmi:id="_8idFZb0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+      <type xmi:id="_8idFZr0tEeumIcEGETCkMg" name="Regiment">
+        <modelElement href="ProjetBallonAgile.uml#_8Gx18L0tEeumIcEGETCkMg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_8idFZ70tEeumIcEGETCkMg" name="modifierCalibre">
+      <modelElement href="ProjetBallonAgile.uml#_8GvZsL0tEeumIcEGETCkMg"/>
+      <visibility xmi:id="_8idFaL0tEeumIcEGETCkMg" label="+"/>
+      <cardinality xmi:id="_8idFab0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_8idFar0tEeumIcEGETCkMg" name="newCalibre">
+        <modelElement href="ProjetBallonAgile.uml#_8GvZsb0tEeumIcEGETCkMg"/>
+        <cardinality xmi:id="_8idFa70tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+        <type xmi:id="_8idFbL0tEeumIcEGETCkMg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8idFbb0tEeumIcEGETCkMg" name="Mecanicien">
+      <modelElement href="ProjetBallonAgile.uml#_8QXPwL0tEeumIcEGETCkMg"/>
+      <keywords xmi:id="_8idFbr0tEeumIcEGETCkMg" keyword="create"/>
+      <visibility xmi:id="_8idFb70tEeumIcEGETCkMg" label="+"/>
+      <cardinality xmi:id="_8idFcL0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8idFcb0tEeumIcEGETCkMg">
+        <modelElement href="ProjetBallonAgile.uml#_8QX20r0tEeumIcEGETCkMg"/>
+        <type xmi:id="_8idFcr0tEeumIcEGETCkMg" name="Mecanicien">
+          <modelElement href="ProjetBallonAgile.uml#_8GtkgL0tEeumIcEGETCkMg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8idFc70tEeumIcEGETCkMg" name="name">
+        <modelElement href="ProjetBallonAgile.uml#_8QXPwb0tEeumIcEGETCkMg"/>
+        <cardinality xmi:id="_8idFdL0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+        <type xmi:id="_8idFdb0tEeumIcEGETCkMg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_8idFdr0tEeumIcEGETCkMg" name="shar">
+        <modelElement href="ProjetBallonAgile.uml#_8QXPwr0tEeumIcEGETCkMg"/>
+        <cardinality xmi:id="_8idFd70tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+        <type xmi:id="_8idFeL0tEeumIcEGETCkMg" name="Char">
+          <modelElement href="ProjetBallonAgile.uml#_8GjzgL0tEeumIcEGETCkMg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_8i5KML0tEeumIcEGETCkMg" name="Regiment" associationsOut="_8ib3ML0tEeumIcEGETCkMg _8idFUL0tEeumIcEGETCkMg">
+    <modelElement href="ProjetBallonAgile.uml#_8Gx18L0tEeumIcEGETCkMg"/>
+    <visualProperties xmi:id="_8i5KMb0tEeumIcEGETCkMg" position="983.0,605.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_8i5KMr0tEeumIcEGETCkMg" label="+"/>
+    <attributes xmi:id="_8i5KM70tEeumIcEGETCkMg" name="mecaniciens">
+      <modelElement href="ProjetBallonAgile.uml#_8Qt1EL0tEeumIcEGETCkMg"/>
+      <visibility xmi:id="_8i5KNL0tEeumIcEGETCkMg" label="+"/>
+      <cardinality xmi:id="_8i5KNb0tEeumIcEGETCkMg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_8i5KNr0tEeumIcEGETCkMg" name="Mecanicien">
+        <modelElement href="ProjetBallonAgile.uml#_8GtkgL0tEeumIcEGETCkMg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_8i5KN70tEeumIcEGETCkMg" name="Regiment">
+      <modelElement href="ProjetBallonAgile.uml#_8QZE8L0tEeumIcEGETCkMg"/>
+      <keywords xmi:id="_8i5KOL0tEeumIcEGETCkMg" keyword="create"/>
+      <stereotypes xmi:id="_8i5KOb0tEeumIcEGETCkMg" name="LegacyStyledElement">
+        <modelElement href="ProjetBallonAgile.uml#_8Qa6IL0tEeumIcEGETCkMg"/>
+      </stereotypes>
+      <visibility xmi:id="_8i5KOr0tEeumIcEGETCkMg" label="+"/>
+      <cardinality xmi:id="_8i5KO70tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8i5KPL0tEeumIcEGETCkMg">
+        <modelElement href="ProjetBallonAgile.uml#_8Qa6Ib0tEeumIcEGETCkMg"/>
+        <type xmi:id="_8i5KPb0tEeumIcEGETCkMg" name="Regiment">
+          <modelElement href="ProjetBallonAgile.uml#_8Gx18L0tEeumIcEGETCkMg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8i5KPr0tEeumIcEGETCkMg" name="mecaniciens">
+        <modelElement href="ProjetBallonAgile.uml#_8QZE8b0tEeumIcEGETCkMg"/>
+        <cardinality xmi:id="_8i5KP70tEeumIcEGETCkMg" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_8i5KQL0tEeumIcEGETCkMg" name="Mecanicien">
+          <modelElement href="ProjetBallonAgile.uml#_8GtkgL0tEeumIcEGETCkMg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8i5KQb0tEeumIcEGETCkMg" name="addMecanicien">
+      <modelElement href="ProjetBallonAgile.uml#_8QbhMb0tEeumIcEGETCkMg"/>
+      <visibility xmi:id="_8i5KQr0tEeumIcEGETCkMg" label="+"/>
+      <cardinality xmi:id="_8i5KQ70tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_8i5KRL0tEeumIcEGETCkMg" name="mecanicien">
+        <modelElement href="ProjetBallonAgile.uml#_8QbhMr0tEeumIcEGETCkMg"/>
+        <cardinality xmi:id="_8i5KRb0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+        <type xmi:id="_8i5KRr0tEeumIcEGETCkMg" name="Mecanicien">
+          <modelElement href="ProjetBallonAgile.uml#_8GtkgL0tEeumIcEGETCkMg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8i5KR70tEeumIcEGETCkMg" name="removeMecanicien">
+      <modelElement href="ProjetBallonAgile.uml#_8QcIQL0tEeumIcEGETCkMg"/>
+      <visibility xmi:id="_8i5KSL0tEeumIcEGETCkMg" label="+"/>
+      <cardinality xmi:id="_8i5KSb0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8i5KSr0tEeumIcEGETCkMg">
+        <modelElement href="ProjetBallonAgile.uml#_8QcIQr0tEeumIcEGETCkMg"/>
+        <type xmi:id="_8i5KS70tEeumIcEGETCkMg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8i5KTL0tEeumIcEGETCkMg" name="mecanicien">
+        <modelElement href="ProjetBallonAgile.uml#_8QcIQb0tEeumIcEGETCkMg"/>
+        <cardinality xmi:id="_8i5KTb0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+        <type xmi:id="_8i5KTr0tEeumIcEGETCkMg" name="Mecanicien">
+          <modelElement href="ProjetBallonAgile.uml#_8GtkgL0tEeumIcEGETCkMg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_8iEq0L0tEeumIcEGETCkMg" comments="_8iC1oL0tEeumIcEGETCkMg" targetConnectionVisual="_8iC1ob0tEeumIcEGETCkMg" name="Ballon" associationsIn="_8gQs8L0tEeumIcEGETCkMg _8jHzsL0tEeumIcEGETCkMg" associationsOut="_8gPe0L0tEeumIcEGETCkMg">
+    <modelElement href="ProjetBallonAgile.uml#_8GUi8L0tEeumIcEGETCkMg"/>
+    <visualProperties xmi:id="_8iEq0b0tEeumIcEGETCkMg" position="1201.0,259.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_8iEq0r0tEeumIcEGETCkMg" label="+"/>
+    <attributes xmi:id="_8iEq070tEeumIcEGETCkMg" name="pressionBallon">
+      <modelElement href="ProjetBallonAgile.uml#_8QmgUL0tEeumIcEGETCkMg"/>
+      <visibility xmi:id="_8iEq1L0tEeumIcEGETCkMg" label="+"/>
+      <cardinality xmi:id="_8iEq1b0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+      <type xmi:id="_8iEq1r0tEeumIcEGETCkMg" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_8iEq170tEeumIcEGETCkMg" name="tailleBallon">
+      <modelElement href="ProjetBallonAgile.uml#_8QnHYL0tEeumIcEGETCkMg"/>
+      <visibility xmi:id="_8iEq2L0tEeumIcEGETCkMg" label="+"/>
+      <cardinality xmi:id="_8iEq2b0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+      <type xmi:id="_8iEq2r0tEeumIcEGETCkMg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_8iEq270tEeumIcEGETCkMg" name="sport">
+      <modelElement href="ProjetBallonAgile.uml#_8QnucL0tEeumIcEGETCkMg"/>
+      <visibility xmi:id="_8iEq3L0tEeumIcEGETCkMg" label="+"/>
+      <cardinality xmi:id="_8iEq3b0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+      <type xmi:id="_8iEq3r0tEeumIcEGETCkMg" name="Sport">
+        <modelElement href="ProjetBallonAgile.uml#_8Ge7AL0tEeumIcEGETCkMg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_8iEq370tEeumIcEGETCkMg" comments="_8iC1or0tEeumIcEGETCkMg" targetConnectionVisual="_8iDcsL0tEeumIcEGETCkMg" name="Ballon">
+      <modelElement href="ProjetBallonAgile.uml#_8GapkL0tEeumIcEGETCkMg"/>
+      <keywords xmi:id="_8iEq4L0tEeumIcEGETCkMg" keyword="create"/>
+      <visibility xmi:id="_8iEq4b0tEeumIcEGETCkMg" label="+"/>
+      <cardinality xmi:id="_8iEq4r0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8iEq470tEeumIcEGETCkMg">
+        <modelElement href="ProjetBallonAgile.uml#_8Gb3sr0tEeumIcEGETCkMg"/>
+        <type xmi:id="_8iEq5L0tEeumIcEGETCkMg" name="Ballon">
+          <modelElement href="ProjetBallonAgile.uml#_8GUi8L0tEeumIcEGETCkMg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_8iEq5b0tEeumIcEGETCkMg" name="reglerBallon">
+      <modelElement href="ProjetBallonAgile.uml#_8GcewL0tEeumIcEGETCkMg"/>
+      <visibility xmi:id="_8iEq5r0tEeumIcEGETCkMg" label="+"/>
+      <cardinality xmi:id="_8iEq570tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_8iEq6L0tEeumIcEGETCkMg" name="pression">
+        <modelElement href="ProjetBallonAgile.uml#_8Gcewb0tEeumIcEGETCkMg"/>
+        <cardinality xmi:id="_8iEq6b0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+        <type xmi:id="_8iEq6r0tEeumIcEGETCkMg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_8iEq670tEeumIcEGETCkMg" name="taille">
+        <modelElement href="ProjetBallonAgile.uml#_8GdF0L0tEeumIcEGETCkMg"/>
+        <cardinality xmi:id="_8iEq7L0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+        <type xmi:id="_8iEq7b0tEeumIcEGETCkMg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8iEq7r0tEeumIcEGETCkMg" name="changerPressionBallon">
+      <modelElement href="ProjetBallonAgile.uml#_8GdF0b0tEeumIcEGETCkMg"/>
+      <visibility xmi:id="_8iEq770tEeumIcEGETCkMg" label="+"/>
+      <cardinality xmi:id="_8iEq8L0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_8iEq8b0tEeumIcEGETCkMg" name="nouvellePression">
+        <modelElement href="ProjetBallonAgile.uml#_8Gds4L0tEeumIcEGETCkMg"/>
+        <cardinality xmi:id="_8iEq8r0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+        <type xmi:id="_8iEq870tEeumIcEGETCkMg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8iEq9L0tEeumIcEGETCkMg" name="setSport">
+      <modelElement href="ProjetBallonAgile.uml#_8QLpkL0tEeumIcEGETCkMg"/>
+      <visibility xmi:id="_8iEq9b0tEeumIcEGETCkMg" label="+"/>
+      <cardinality xmi:id="_8iEq9r0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_8iEq970tEeumIcEGETCkMg" name="nouveauSport">
+        <modelElement href="ProjetBallonAgile.uml#_8QLpkb0tEeumIcEGETCkMg"/>
+        <cardinality xmi:id="_8iEq-L0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+        <type xmi:id="_8iEq-b0tEeumIcEGETCkMg" name="Sport">
+          <modelElement href="ProjetBallonAgile.uml#_8Ge7AL0tEeumIcEGETCkMg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_8gRUAL0tEeumIcEGETCkMg" comments="_8gFGwL0tEeumIcEGETCkMg" targetConnectionVisual="_8gFt0L0tEeumIcEGETCkMg" name="Sport" associationsIn="_8gPe0L0tEeumIcEGETCkMg" associationsOut="_8gQs8L0tEeumIcEGETCkMg">
+    <modelElement href="ProjetBallonAgile.uml#_8Ge7AL0tEeumIcEGETCkMg"/>
+    <visualProperties xmi:id="_8gRUAb0tEeumIcEGETCkMg" position="1246.0,24.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_8gRUAr0tEeumIcEGETCkMg" label="+"/>
+    <attributes xmi:id="_8gRUA70tEeumIcEGETCkMg" name="nom">
+      <modelElement href="ProjetBallonAgile.uml#_8Qnucb0tEeumIcEGETCkMg"/>
+      <stereotypes xmi:id="_8gRUBL0tEeumIcEGETCkMg" name="LegacyStyledElement">
+        <modelElement href="ProjetBallonAgile.uml#_8QoVgL0tEeumIcEGETCkMg"/>
+      </stereotypes>
+      <visibility xmi:id="_8gRUBb0tEeumIcEGETCkMg" label="-"/>
+      <cardinality xmi:id="_8gRUBr0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+      <type xmi:id="_8gRUB70tEeumIcEGETCkMg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_8gRUCL0tEeumIcEGETCkMg" name="setBallons">
+      <modelElement href="ProjetBallonAgile.uml#_8QoVgb0tEeumIcEGETCkMg"/>
+      <visibility xmi:id="_8gRUCb0tEeumIcEGETCkMg" label="+"/>
+      <cardinality xmi:id="_8gRUCr0tEeumIcEGETCkMg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_8gRUC70tEeumIcEGETCkMg" name="Ballon">
+        <modelElement href="ProjetBallonAgile.uml#_8GUi8L0tEeumIcEGETCkMg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_8gRUDL0tEeumIcEGETCkMg" comments="_8gIxIL0tEeumIcEGETCkMg" targetConnectionVisual="_8gJYML0tEeumIcEGETCkMg" name="Sport">
+      <modelElement href="ProjetBallonAgile.uml#_8GgJIL0tEeumIcEGETCkMg"/>
+      <keywords xmi:id="_8gRUDb0tEeumIcEGETCkMg" keyword="create"/>
+      <visibility xmi:id="_8gRUDr0tEeumIcEGETCkMg" label="+"/>
+      <cardinality xmi:id="_8gRUD70tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8gRUEL0tEeumIcEGETCkMg">
+        <modelElement href="ProjetBallonAgile.uml#_8GgwML0tEeumIcEGETCkMg"/>
+        <type xmi:id="_8gRUEb0tEeumIcEGETCkMg" name="Sport">
+          <modelElement href="ProjetBallonAgile.uml#_8Ge7AL0tEeumIcEGETCkMg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8gRUEr0tEeumIcEGETCkMg" name="nom">
+        <modelElement href="ProjetBallonAgile.uml#_8GgJIb0tEeumIcEGETCkMg"/>
+        <cardinality xmi:id="_8gRUE70tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+        <type xmi:id="_8gRUFL0tEeumIcEGETCkMg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8gRUFb0tEeumIcEGETCkMg" name="getSport">
+      <modelElement href="ProjetBallonAgile.uml#_8GhXQL0tEeumIcEGETCkMg"/>
+      <visibility xmi:id="_8gRUFr0tEeumIcEGETCkMg" label="+"/>
+      <cardinality xmi:id="_8gRUF70tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8gRUGL0tEeumIcEGETCkMg">
+        <modelElement href="ProjetBallonAgile.uml#_8GhXQb0tEeumIcEGETCkMg"/>
+        <type xmi:id="_8gRUGb0tEeumIcEGETCkMg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_8gRUGr0tEeumIcEGETCkMg" name="ajouterBallon">
+      <modelElement href="ProjetBallonAgile.uml#_8QPT8b0tEeumIcEGETCkMg"/>
+      <stereotypes xmi:id="_8gRUG70tEeumIcEGETCkMg" name="LegacyStyledElement">
+        <modelElement href="ProjetBallonAgile.uml#_8QP7AL0tEeumIcEGETCkMg"/>
+      </stereotypes>
+      <visibility xmi:id="_8gRUHL0tEeumIcEGETCkMg" label="+"/>
+      <cardinality xmi:id="_8gRUHb0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_8gRUHr0tEeumIcEGETCkMg" name="ballons">
+        <modelElement href="ProjetBallonAgile.uml#_8QPT8r0tEeumIcEGETCkMg"/>
+        <cardinality xmi:id="_8gRUH70tEeumIcEGETCkMg" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_8gRUIL0tEeumIcEGETCkMg" name="Ballon">
+          <modelElement href="ProjetBallonAgile.uml#_8GUi8L0tEeumIcEGETCkMg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8gRUIb0tEeumIcEGETCkMg" name="retirerBallon">
+      <modelElement href="ProjetBallonAgile.uml#_8QQiEb0tEeumIcEGETCkMg"/>
+      <visibility xmi:id="_8gRUIr0tEeumIcEGETCkMg" label="+"/>
+      <cardinality xmi:id="_8gRUI70tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_8gRUJL0tEeumIcEGETCkMg" name="ballon">
+        <modelElement href="ProjetBallonAgile.uml#_8QQiEr0tEeumIcEGETCkMg"/>
+        <cardinality xmi:id="_8gRUJb0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+        <type xmi:id="_8gRUJr0tEeumIcEGETCkMg" name="Ballon">
+          <modelElement href="ProjetBallonAgile.uml#_8GUi8L0tEeumIcEGETCkMg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8gRUJ70tEeumIcEGETCkMg" name="getCategorie">
+      <modelElement href="ProjetBallonAgile.uml#_8QRJIL0tEeumIcEGETCkMg"/>
+      <visibility xmi:id="_8gRUKL0tEeumIcEGETCkMg" label="+"/>
+      <cardinality xmi:id="_8gRUKb0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8gRUKr0tEeumIcEGETCkMg">
+        <modelElement href="ProjetBallonAgile.uml#_8QRJIr0tEeumIcEGETCkMg"/>
+        <type xmi:id="_8gRUK70tEeumIcEGETCkMg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8gRULL0tEeumIcEGETCkMg" name="ballon">
+        <modelElement href="ProjetBallonAgile.uml#_8QRJIb0tEeumIcEGETCkMg"/>
+        <cardinality xmi:id="_8gRULb0tEeumIcEGETCkMg" label="1" max="1" min="1"/>
+        <type xmi:id="_8gRULr0tEeumIcEGETCkMg" name="Ballon">
+          <modelElement href="ProjetBallonAgile.uml#_8GUi8L0tEeumIcEGETCkMg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

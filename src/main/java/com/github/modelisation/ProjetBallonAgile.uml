@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_7fksAL0tEeumIcEGETCkMg" name="ProjetBallonAgile">
+    <eAnnotations xmi:id="_76P10L0tEeumIcEGETCkMg" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_76P10b0tEeumIcEGETCkMg" source="codegen">
+        <details xmi:id="_76P10r0tEeumIcEGETCkMg" key="codegenDirectory" value="/ProjetBallonAgile/src/main/java"/>
+        <details xmi:id="_8f6usL0tEeumIcEGETCkMg" key="AssociatedSourceCode" value="/ProjetBallonAgile/src/main/java/com/github/modelisation/Ballon.java;1061191163/1;/ProjetBallonAgile/src/main/java/com/github/modelisation/Sport.java;859649253/1;/ProjetBallonAgile/src/main/java/com/github/modelisation/gestionchar/Char.java;3796179701/1;/ProjetBallonAgile/src/main/java/com/github/modelisation/gestionchar/CharDAttaque.java;3496187324/1;/ProjetBallonAgile/src/main/java/com/github/modelisation/gestionchar/Mecanicien.java;114154119/1;/ProjetBallonAgile/src/main/java/com/github/modelisation/gestionchar/Regiment.java;3903935453/1;/ProjetBallonAgile/src/main/java/com/github/modelisation/gestionchar/UncompatibleCalibreException.java;1486963391/1;/ProjetBallonAgile/src/main/java/com/github/modelisation/munitions/AbstractMunition.java;3937165257/1;/ProjetBallonAgile/src/main/java/com/github/modelisation/munitions/BallonToMunitionAdapter.java;2688612371/1;/ProjetBallonAgile/src/main/java/com/github/modelisation/munitions/MunitionFactory.java;96058034/1;/ProjetBallonAgile/src/main/java/com/github/modelisation/munitions/ObusExplosif.java;3776886475/1;/ProjetBallonAgile/src/main/java/com/github/modelisation/munitions/ObusPerforant.java;2141094598/1;/ProjetBallonAgile/src/main/java/com/github/modelisation/munitions/TypeMunition.java;3090772907/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_8GY0YL0tEeumIcEGETCkMg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_8GY0Yb0tEeumIcEGETCkMg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_8GY0Yr0tEeumIcEGETCkMg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_8GZbcL0tEeumIcEGETCkMg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_8GZbcb0tEeumIcEGETCkMg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_8GZbcr0tEeumIcEGETCkMg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_8GZbc70tEeumIcEGETCkMg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_8GZbdL0tEeumIcEGETCkMg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_8GaCgL0tEeumIcEGETCkMg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_8FomcL0tEeumIcEGETCkMg" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_8Fomcb0tEeumIcEGETCkMg" name="github">
+        <packagedElement xmi:type="uml:Package" xmi:id="_8Fv7ML0tEeumIcEGETCkMg" name="modelisation">
+          <packagedElement xmi:type="uml:Package" xmi:id="_8F6TQL0tEeumIcEGETCkMg" name="gestionchar">
+            <packagedElement xmi:type="uml:Class" xmi:id="_8GjzgL0tEeumIcEGETCkMg" name="Char">
+              <ownedAttribute xmi:id="_8QpjoL0tEeumIcEGETCkMg" name="fabriquant">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_8Qpjob0tEeumIcEGETCkMg" name="calibre">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedAttribute>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8RIr0L0tEeumIcEGETCkMg" name="Char" specification="_8GlBoL0tEeumIcEGETCkMg">
+                <ownedParameter xmi:id="_8RIr0b0tEeumIcEGETCkMg" name="fabriquant">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_8RIr0r0tEeumIcEGETCkMg" name="calibre">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_8RIr070tEeumIcEGETCkMg" type="_8GjzgL0tEeumIcEGETCkMg" direction="return"/>
+                <language>java</language>
+                <body>this.fabriquant = fabriquant;&#xD;
+		this.calibre = calibre;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_8GlBoL0tEeumIcEGETCkMg" name="Char" method="_8RIr0L0tEeumIcEGETCkMg">
+                <eAnnotations xmi:id="_8GlBo70tEeumIcEGETCkMg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_8GlosL0tEeumIcEGETCkMg" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_8GlBob0tEeumIcEGETCkMg" name="fabriquant">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_8GlBor0tEeumIcEGETCkMg" name="calibre">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_8Glosb0tEeumIcEGETCkMg" type="_8GjzgL0tEeumIcEGETCkMg" direction="return"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_8GmPwL0tEeumIcEGETCkMg" name="CharDAttaque">
+              <generalization xmi:id="_8QWBob0tEeumIcEGETCkMg" general="_8GjzgL0tEeumIcEGETCkMg"/>
+              <ownedAttribute xmi:id="_8QqKsL0tEeumIcEGETCkMg" name="MAX_MUNITION" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_8QqKsb0tEeumIcEGETCkMg" value="10"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_8QqKs70tEeumIcEGETCkMg" name="munitions" visibility="private" type="_8QSXQb0tEeumIcEGETCkMg" association="_8RXVUL0tEeumIcEGETCkMg"/>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8RIr1L0tEeumIcEGETCkMg" name="CharDAttaque" specification="_8GoE8L0tEeumIcEGETCkMg">
+                <ownedParameter xmi:id="_8RIr1b0tEeumIcEGETCkMg" name="fabriquant">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_8RIr1r0tEeumIcEGETCkMg" name="calibre">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_8RIr170tEeumIcEGETCkMg" type="_8GmPwL0tEeumIcEGETCkMg" direction="return"/>
+                <language>java</language>
+                <body>super(fabriquant, calibre);&#xD;
+		munitions = new ArrayDeque&lt;>();&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8RJS4L0tEeumIcEGETCkMg" name="getMunitionCount" specification="_8GpTEL0tEeumIcEGETCkMg">
+                <ownedParameter xmi:id="_8RJS4b0tEeumIcEGETCkMg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return munitions.size();&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8RJS4r0tEeumIcEGETCkMg" name="ajouterMunition" specification="_8QVakL0tEeumIcEGETCkMg">
+                <ownedParameter xmi:id="_8RJS470tEeumIcEGETCkMg" name="munition" type="_8G6Y0L0tEeumIcEGETCkMg"/>
+                <language>java</language>
+                <body>if (munition.getCalibre() > getCalibre()) {&#xD;
+			log.error(&quot;munition de mauvais calibre,&quot; + munition.getCalibre() + &quot;incompatible avec le calibre&quot;&#xD;
+					+ this.getCalibre());&#xD;
+			throw new UncompatibleCalibreException(&quot;munition de mauvais calibre&quot;);&#xD;
+		}&#xD;
+&#xD;
+		if (munitions.size() &lt; MAX_MUNITION) {&#xD;
+			munitions.add(munition);&#xD;
+		}&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8RJS5L0tEeumIcEGETCkMg" name="tirer" specification="_8Gp6IL0tEeumIcEGETCkMg">
+                <language>java</language>
+                <body>if (!munitions.isEmpty()) {&#xD;
+			munitions.removeLast();&#xD;
+		}&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_8GoE8L0tEeumIcEGETCkMg" name="CharDAttaque" method="_8RIr1L0tEeumIcEGETCkMg">
+                <eAnnotations xmi:id="_8GosAb0tEeumIcEGETCkMg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_8GosAr0tEeumIcEGETCkMg" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_8GoE8b0tEeumIcEGETCkMg" name="fabriquant">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_8GosAL0tEeumIcEGETCkMg" name="calibre">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_8GosA70tEeumIcEGETCkMg" type="_8GmPwL0tEeumIcEGETCkMg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_8GpTEL0tEeumIcEGETCkMg" name="getMunitionCount" method="_8RJS4L0tEeumIcEGETCkMg">
+                <ownedParameter xmi:id="_8GpTEb0tEeumIcEGETCkMg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_8Gp6IL0tEeumIcEGETCkMg" name="tirer" method="_8RJS5L0tEeumIcEGETCkMg"/>
+              <ownedOperation xmi:id="_8QVakL0tEeumIcEGETCkMg" name="ajouterMunition" method="_8RJS4r0tEeumIcEGETCkMg">
+                <ownedParameter xmi:id="_8QVakb0tEeumIcEGETCkMg" name="munition" type="_8G6Y0L0tEeumIcEGETCkMg"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_8GtkgL0tEeumIcEGETCkMg" name="Mecanicien">
+              <ownedAttribute xmi:id="_8Qr_4r0tEeumIcEGETCkMg" name="name">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_8Qsm8L0tEeumIcEGETCkMg" name="shar" type="_8GjzgL0tEeumIcEGETCkMg" association="_8RQAkL0tEeumIcEGETCkMg"/>
+              <ownedAttribute xmi:id="_8Qsm8b0tEeumIcEGETCkMg" name="regiment" type="_8Gx18L0tEeumIcEGETCkMg" association="_8RQnoL0tEeumIcEGETCkMg"/>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8RJ58L0tEeumIcEGETCkMg" name="Mecanicien" specification="_8QXPwL0tEeumIcEGETCkMg">
+                <ownedParameter xmi:id="_8RJ58b0tEeumIcEGETCkMg" name="name">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_8RJ58r0tEeumIcEGETCkMg" name="shar" type="_8GjzgL0tEeumIcEGETCkMg"/>
+                <ownedParameter xmi:id="_8RJ5870tEeumIcEGETCkMg" type="_8GtkgL0tEeumIcEGETCkMg" direction="return"/>
+                <language>java</language>
+                <body>this.name = name;&#xD;
+		this.shar = shar;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8RJ59L0tEeumIcEGETCkMg" name="modifierCalibre" specification="_8GvZsL0tEeumIcEGETCkMg">
+                <ownedParameter xmi:id="_8RJ59b0tEeumIcEGETCkMg" name="newCalibre">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>this.shar.setCalibre(newCalibre);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_8GvZsL0tEeumIcEGETCkMg" name="modifierCalibre" method="_8RJ59L0tEeumIcEGETCkMg">
+                <ownedParameter xmi:id="_8GvZsb0tEeumIcEGETCkMg" name="newCalibre">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_8QXPwL0tEeumIcEGETCkMg" name="Mecanicien" method="_8RJ58L0tEeumIcEGETCkMg">
+                <eAnnotations xmi:id="_8QX20L0tEeumIcEGETCkMg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_8QX20b0tEeumIcEGETCkMg" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_8QXPwb0tEeumIcEGETCkMg" name="name">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_8QXPwr0tEeumIcEGETCkMg" name="shar" type="_8GjzgL0tEeumIcEGETCkMg"/>
+                <ownedParameter xmi:id="_8QX20r0tEeumIcEGETCkMg" type="_8GtkgL0tEeumIcEGETCkMg" direction="return"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_8Gx18L0tEeumIcEGETCkMg" name="Regiment">
+              <ownedAttribute xmi:id="_8Qt1EL0tEeumIcEGETCkMg" name="mecaniciens" isLeaf="true" type="_8GtkgL0tEeumIcEGETCkMg" isReadOnly="true" association="_8RYjcb0tEeumIcEGETCkMg">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8Qt1Er0tEeumIcEGETCkMg" value="*"/>
+              </ownedAttribute>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8RLIEr0tEeumIcEGETCkMg" name="Regiment" specification="_8QZE8L0tEeumIcEGETCkMg">
+                <ownedParameter xmi:id="_8RLIE70tEeumIcEGETCkMg" name="mecaniciens" type="_8GtkgL0tEeumIcEGETCkMg">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8RLIFL0tEeumIcEGETCkMg" value="*"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_8RLIFb0tEeumIcEGETCkMg" type="_8Gx18L0tEeumIcEGETCkMg" direction="return"/>
+                <language>java</language>
+                <body>this.mecaniciens = new HashSet&lt;>();&#xD;
+		for (Mecanicien m : mecaniciens) {&#xD;
+			this.addMecanicien(m);&#xD;
+		}&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8RLIFr0tEeumIcEGETCkMg" name="addMecanicien" specification="_8QbhMb0tEeumIcEGETCkMg">
+                <ownedParameter xmi:id="_8RLIF70tEeumIcEGETCkMg" name="mecanicien" type="_8GtkgL0tEeumIcEGETCkMg"/>
+                <language>java</language>
+                <body>this.mecaniciens.add(mecanicien);&#xD;
+&#xD;
+		// On change le régiment associé au mécanicien&#xD;
+		mecanicien.setRegiment(this);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8RLvIL0tEeumIcEGETCkMg" name="removeMecanicien" specification="_8QcIQL0tEeumIcEGETCkMg">
+                <ownedParameter xmi:id="_8RLvIb0tEeumIcEGETCkMg" name="mecanicien" type="_8GtkgL0tEeumIcEGETCkMg"/>
+                <ownedParameter xmi:id="_8RLvIr0tEeumIcEGETCkMg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>boolean removed = this.mecaniciens.remove(mecanicien);&#xD;
+&#xD;
+		// Si on a bien trouvé et retiré le mécanicien du régiment,&#xD;
+		// alors on propage l'affectation au mécanicien.&#xD;
+		if (removed) {&#xD;
+			mecanicien.setRegiment(null);&#xD;
+		}&#xD;
+		return removed;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_8QZE8L0tEeumIcEGETCkMg" name="Regiment" method="_8RLIEr0tEeumIcEGETCkMg">
+                <eAnnotations xmi:id="_8QZE8r0tEeumIcEGETCkMg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_8QZsAL0tEeumIcEGETCkMg" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_8QZE8b0tEeumIcEGETCkMg" name="mecaniciens" type="_8GtkgL0tEeumIcEGETCkMg">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8Qa6Ir0tEeumIcEGETCkMg" value="*"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_8Qa6Ib0tEeumIcEGETCkMg" type="_8Gx18L0tEeumIcEGETCkMg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_8QbhMb0tEeumIcEGETCkMg" name="addMecanicien" method="_8RLIFr0tEeumIcEGETCkMg">
+                <ownedParameter xmi:id="_8QbhMr0tEeumIcEGETCkMg" name="mecanicien" type="_8GtkgL0tEeumIcEGETCkMg"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_8QcIQL0tEeumIcEGETCkMg" name="removeMecanicien" method="_8RLvIL0tEeumIcEGETCkMg">
+                <ownedParameter xmi:id="_8QcIQb0tEeumIcEGETCkMg" name="mecanicien" type="_8GtkgL0tEeumIcEGETCkMg"/>
+                <ownedParameter xmi:id="_8QcIQr0tEeumIcEGETCkMg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_8G2HYL0tEeumIcEGETCkMg" name="UncompatibleCalibreException">
+              <generalization xmi:id="_8QlSMb0tEeumIcEGETCkMg" general="_8QkrIL0tEeumIcEGETCkMg"/>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8RLvI70tEeumIcEGETCkMg" name="UncompatibleCalibreException" specification="_8G4joL0tEeumIcEGETCkMg">
+                <ownedParameter xmi:id="_8RLvJL0tEeumIcEGETCkMg" name="s">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_8RLvJb0tEeumIcEGETCkMg" type="_8G2HYL0tEeumIcEGETCkMg" direction="return"/>
+                <language>java</language>
+                <body>super(s);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_8G4joL0tEeumIcEGETCkMg" name="UncompatibleCalibreException" method="_8RLvI70tEeumIcEGETCkMg">
+                <eAnnotations xmi:id="_8G5Ksb0tEeumIcEGETCkMg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_8G5Ksr0tEeumIcEGETCkMg" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_8G5KsL0tEeumIcEGETCkMg" name="s">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_8G5Ks70tEeumIcEGETCkMg" type="_8G2HYL0tEeumIcEGETCkMg" direction="return"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_8RQAkL0tEeumIcEGETCkMg" name="" memberEnd="_8Qsm8L0tEeumIcEGETCkMg _8RQAkb0tEeumIcEGETCkMg">
+              <ownedEnd xmi:id="_8RQAkb0tEeumIcEGETCkMg" name="" type="_8GtkgL0tEeumIcEGETCkMg" association="_8RQAkL0tEeumIcEGETCkMg"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_8RQnoL0tEeumIcEGETCkMg" name="" memberEnd="_8Qsm8b0tEeumIcEGETCkMg _8RQnob0tEeumIcEGETCkMg">
+              <ownedEnd xmi:id="_8RQnob0tEeumIcEGETCkMg" name="" type="_8GtkgL0tEeumIcEGETCkMg" association="_8RQnoL0tEeumIcEGETCkMg"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_8RXVUL0tEeumIcEGETCkMg" name="" memberEnd="_8RXVUb0tEeumIcEGETCkMg _8QqKs70tEeumIcEGETCkMg">
+              <ownedEnd xmi:id="_8RXVUb0tEeumIcEGETCkMg" name="" type="_8GmPwL0tEeumIcEGETCkMg" association="_8RXVUL0tEeumIcEGETCkMg"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_8RYjcb0tEeumIcEGETCkMg" name="" memberEnd="_8RYjcr0tEeumIcEGETCkMg _8Qt1EL0tEeumIcEGETCkMg">
+              <ownedEnd xmi:id="_8RYjcr0tEeumIcEGETCkMg" name="" type="_8Gx18L0tEeumIcEGETCkMg" association="_8RYjcb0tEeumIcEGETCkMg"/>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_8F8vgL0tEeumIcEGETCkMg" name="munitions">
+            <packagedElement xmi:type="uml:Class" xmi:id="_8G6Y0L0tEeumIcEGETCkMg" name="AbstractMunition" isAbstract="true">
+              <ownedAttribute xmi:id="_8QvqQL0tEeumIcEGETCkMg" name="degatMunition" visibility="protected">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_8QvqQr0tEeumIcEGETCkMg" name="calibre" visibility="protected">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedAttribute>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8RMWML0tEeumIcEGETCkMg" name="getDegatMunition" specification="_8G6_4L0tEeumIcEGETCkMg">
+                <ownedParameter xmi:id="_8RMWMb0tEeumIcEGETCkMg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return this.degatMunition;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8RMWMr0tEeumIcEGETCkMg" name="getCalibre" specification="_8G7m8b0tEeumIcEGETCkMg">
+                <ownedParameter xmi:id="_8RMWM70tEeumIcEGETCkMg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return this.calibre;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_8G6_4L0tEeumIcEGETCkMg" name="getDegatMunition" method="_8RMWML0tEeumIcEGETCkMg">
+                <ownedParameter xmi:id="_8G7m8L0tEeumIcEGETCkMg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_8G7m8b0tEeumIcEGETCkMg" name="getCalibre" method="_8RMWMr0tEeumIcEGETCkMg">
+                <ownedParameter xmi:id="_8G8OAL0tEeumIcEGETCkMg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_8G8OAb0tEeumIcEGETCkMg" name="BallonToMunitionAdapter">
+              <generalization xmi:id="_8QdWZL0tEeumIcEGETCkMg" general="_8G6Y0L0tEeumIcEGETCkMg"/>
+              <ownedAttribute xmi:id="_8QwRUb0tEeumIcEGETCkMg" name="TAILLE_BALLON_MUNITION" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_8Qw4YL0tEeumIcEGETCkMg" value="10"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_8Q40ML0tEeumIcEGETCkMg" name="PRESSION_BALLON" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_8Q5bQL0tEeumIcEGETCkMg" value="7"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_8Q5bQb0tEeumIcEGETCkMg" name="DEGAT_BALLON" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_8Q5bQr0tEeumIcEGETCkMg" value="2"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_8Q5bQ70tEeumIcEGETCkMg" name="ballon" visibility="private" type="_8GUi8L0tEeumIcEGETCkMg" association="_8RaYoL0tEeumIcEGETCkMg"/>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8RMWNL0tEeumIcEGETCkMg" name="BallonToMunitionAdapter" specification="_8QcvUL0tEeumIcEGETCkMg">
+                <ownedParameter xmi:id="_8RMWNb0tEeumIcEGETCkMg" name="ballon" type="_8GUi8L0tEeumIcEGETCkMg"/>
+                <ownedParameter xmi:id="_8RMWNr0tEeumIcEGETCkMg" type="_8G8OAb0tEeumIcEGETCkMg" direction="return"/>
+                <language>java</language>
+                <body>this.ballon = ballon;&#xD;
+		this.degatMunition = DEGAT_BALLON;&#xD;
+		setPressionBallon();&#xD;
+		setTailleBallon();&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8RMWN70tEeumIcEGETCkMg" name="setPressionBallon" specification="_8G-DML0tEeumIcEGETCkMg">
+                <language>java</language>
+                <body>this.ballon.setPressionBallon(PRESSION_BALLON);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8RM9QL0tEeumIcEGETCkMg" name="setTailleBallon" specification="_8G-DMb0tEeumIcEGETCkMg">
+                <language>java</language>
+                <body>this.ballon.setTailleBallon(TAILLE_BALLON_MUNITION);&#xD;
+		this.calibre = TAILLE_BALLON_MUNITION;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_8G-DML0tEeumIcEGETCkMg" name="setPressionBallon" visibility="private" method="_8RMWN70tEeumIcEGETCkMg"/>
+              <ownedOperation xmi:id="_8G-DMb0tEeumIcEGETCkMg" name="setTailleBallon" visibility="private" method="_8RM9QL0tEeumIcEGETCkMg"/>
+              <ownedOperation xmi:id="_8QcvUL0tEeumIcEGETCkMg" name="BallonToMunitionAdapter" method="_8RMWNL0tEeumIcEGETCkMg">
+                <eAnnotations xmi:id="_8QdWYb0tEeumIcEGETCkMg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_8QdWYr0tEeumIcEGETCkMg" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_8QdWYL0tEeumIcEGETCkMg" name="ballon" type="_8GUi8L0tEeumIcEGETCkMg"/>
+                <ownedParameter xmi:id="_8QdWY70tEeumIcEGETCkMg" type="_8G8OAb0tEeumIcEGETCkMg" direction="return"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_8HAfcL0tEeumIcEGETCkMg" name="MunitionFactory">
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8RM9Qb0tEeumIcEGETCkMg" name="getMunition" specification="_8QekgL0tEeumIcEGETCkMg">
+                <ownedParameter xmi:id="_8RM9Qr0tEeumIcEGETCkMg" name="typeMunition" type="_8HN60L0tEeumIcEGETCkMg"/>
+                <ownedParameter xmi:id="_8RM9Q70tEeumIcEGETCkMg" type="_8G6Y0L0tEeumIcEGETCkMg" direction="return"/>
+                <language>java</language>
+                <body>switch (typeMunition) {&#xD;
+		case BALLON:&#xD;
+			return new BallonToMunitionAdapter(new Ballon());&#xD;
+		case OBUS_EXPLOSIF:&#xD;
+			return new ObusExplosif();&#xD;
+		case OBUS_PERFORANT:&#xD;
+			return new ObusPerforant();&#xD;
+		default:&#xD;
+			return null;&#xD;
+		}&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_8HCUoL0tEeumIcEGETCkMg" name="MunitionFactory" visibility="private">
+                <eAnnotations xmi:id="_8HCUob0tEeumIcEGETCkMg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_8HCUor0tEeumIcEGETCkMg" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_8HC7sb0tEeumIcEGETCkMg" type="_8HAfcL0tEeumIcEGETCkMg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_8QekgL0tEeumIcEGETCkMg" name="getMunition" isStatic="true" method="_8RM9Qb0tEeumIcEGETCkMg">
+                <ownedParameter xmi:id="_8Qekgb0tEeumIcEGETCkMg" name="typeMunition" type="_8HN60L0tEeumIcEGETCkMg"/>
+                <ownedParameter xmi:id="_8Qekgr0tEeumIcEGETCkMg" type="_8G6Y0L0tEeumIcEGETCkMg" direction="return"/>
+              </ownedOperation>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_8HEJ0L0tEeumIcEGETCkMg" name="Of">
+                <eAnnotations xmi:id="_8HEJ0b0tEeumIcEGETCkMg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_8HEJ0r0tEeumIcEGETCkMg" key="static"/>
+                </eAnnotations>
+                <ownedAttribute xmi:id="_8Q6pYL0tEeumIcEGETCkMg" name="type" visibility="private" type="_8HN60L0tEeumIcEGETCkMg"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8RM9RL0tEeumIcEGETCkMg" name="Of" specification="_8Qekg70tEeumIcEGETCkMg">
+                  <ownedParameter xmi:id="_8RM9Rb0tEeumIcEGETCkMg" name="type" type="_8HN60L0tEeumIcEGETCkMg"/>
+                  <ownedParameter xmi:id="_8RM9Rr0tEeumIcEGETCkMg" type="_8HEJ0L0tEeumIcEGETCkMg" direction="return"/>
+                  <language>java</language>
+                  <body>this.type = type;&#xD;
+		</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8RNkUL0tEeumIcEGETCkMg" name="get" specification="_8HFX8L0tEeumIcEGETCkMg">
+                  <ownedParameter xmi:id="_8RNkUb0tEeumIcEGETCkMg" type="_8G6Y0L0tEeumIcEGETCkMg" direction="return"/>
+                  <language>java</language>
+                  <body>return getMunition(type);&#xD;
+		</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_8HFX8L0tEeumIcEGETCkMg" name="get" method="_8RNkUL0tEeumIcEGETCkMg">
+                  <ownedParameter xmi:id="_8QfLlL0tEeumIcEGETCkMg" type="_8G6Y0L0tEeumIcEGETCkMg" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_8Qekg70tEeumIcEGETCkMg" name="Of" method="_8RM9RL0tEeumIcEGETCkMg">
+                  <eAnnotations xmi:id="_8QfLkb0tEeumIcEGETCkMg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_8QfLkr0tEeumIcEGETCkMg" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_8QfLkL0tEeumIcEGETCkMg" name="type" type="_8HN60L0tEeumIcEGETCkMg"/>
+                  <ownedParameter xmi:id="_8QfLk70tEeumIcEGETCkMg" type="_8HEJ0L0tEeumIcEGETCkMg" direction="return"/>
+                </ownedOperation>
+              </nestedClassifier>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_8HJpYL0tEeumIcEGETCkMg" name="ObusExplosif">
+              <generalization xmi:id="_8QfyoL0tEeumIcEGETCkMg" general="_8G6Y0L0tEeumIcEGETCkMg"/>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8RNkUr0tEeumIcEGETCkMg" name="ObusExplosif" specification="_8HK3gL0tEeumIcEGETCkMg">
+                <ownedParameter xmi:id="_8RNkU70tEeumIcEGETCkMg" type="_8HJpYL0tEeumIcEGETCkMg" direction="return"/>
+                <language>java</language>
+                <body>this.degatMunition = 170;&#xD;
+		this.calibre = 12;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_8HK3gL0tEeumIcEGETCkMg" name="ObusExplosif" method="_8RNkUr0tEeumIcEGETCkMg">
+                <eAnnotations xmi:id="_8HK3gb0tEeumIcEGETCkMg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_8HK3gr0tEeumIcEGETCkMg" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_8HK3g70tEeumIcEGETCkMg" type="_8HJpYL0tEeumIcEGETCkMg" direction="return"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_8HLekL0tEeumIcEGETCkMg" name="ObusPerforant">
+              <generalization xmi:id="_8QgZsL0tEeumIcEGETCkMg" general="_8G6Y0L0tEeumIcEGETCkMg"/>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8RNkVL0tEeumIcEGETCkMg" name="ObusPerforant" specification="_8HMssL0tEeumIcEGETCkMg">
+                <ownedParameter xmi:id="_8RNkVb0tEeumIcEGETCkMg" type="_8HLekL0tEeumIcEGETCkMg" direction="return"/>
+                <language>java</language>
+                <body>this.degatMunition = 120;&#xD;
+		this.calibre = 20;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_8HMssL0tEeumIcEGETCkMg" name="ObusPerforant" method="_8RNkVL0tEeumIcEGETCkMg">
+                <eAnnotations xmi:id="_8HMssb0tEeumIcEGETCkMg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_8HMssr0tEeumIcEGETCkMg" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_8HMss70tEeumIcEGETCkMg" type="_8HLekL0tEeumIcEGETCkMg" direction="return"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Enumeration" xmi:id="_8HN60L0tEeumIcEGETCkMg" name="TypeMunition">
+              <ownedLiteral xmi:id="_8HOh4b0tEeumIcEGETCkMg" name="BALLON"/>
+              <ownedLiteral xmi:id="_8HPI8L0tEeumIcEGETCkMg" name="OBUS_PERFORANT"/>
+              <ownedLiteral xmi:id="_8HPI8b0tEeumIcEGETCkMg" name="OBUS_EXPLOSIF"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_8RaYoL0tEeumIcEGETCkMg" name="" memberEnd="_8RaYob0tEeumIcEGETCkMg _8Q5bQ70tEeumIcEGETCkMg">
+              <ownedEnd xmi:id="_8RaYob0tEeumIcEGETCkMg" name="" type="_8G8OAb0tEeumIcEGETCkMg" association="_8RaYoL0tEeumIcEGETCkMg"/>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_8GUi8L0tEeumIcEGETCkMg" name="Ballon">
+            <ownedComment xmi:id="_8ROLYL0tEeumIcEGETCkMg">
+              <body>Décrivez votre classe Ballon ici.&#xD;
+ *&#xD;
+@author (votre nom)&#xD;
+@version (un numéro de version ou une date)</body>
+            </ownedComment>
+            <ownedAttribute xmi:id="_8QmgUL0tEeumIcEGETCkMg" name="pressionBallon">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_8QnHYL0tEeumIcEGETCkMg" name="tailleBallon">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_8QnucL0tEeumIcEGETCkMg" name="sport" type="_8Ge7AL0tEeumIcEGETCkMg" isReadOnly="true" association="_8RU5EL0tEeumIcEGETCkMg"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8RDMQL0tEeumIcEGETCkMg" name="Ballon" specification="_8GapkL0tEeumIcEGETCkMg">
+              <ownedParameter xmi:id="_8RDMQb0tEeumIcEGETCkMg" type="_8GUi8L0tEeumIcEGETCkMg" direction="return"/>
+              <language>java</language>
+              <body>this.pressionBallon = 0;&#xD;
+		this.tailleBallon = 0;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8RGPkL0tEeumIcEGETCkMg" name="reglerBallon" specification="_8GcewL0tEeumIcEGETCkMg">
+              <ownedParameter xmi:id="_8RGPkb0tEeumIcEGETCkMg" name="pression">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_8RGPkr0tEeumIcEGETCkMg" name="taille">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>this.changerPressionBallon(pression);&#xD;
+		this.setTailleBallon(taille);&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8RG2oL0tEeumIcEGETCkMg" name="changerPressionBallon" specification="_8GdF0b0tEeumIcEGETCkMg">
+              <ownedParameter xmi:id="_8RG2ob0tEeumIcEGETCkMg" name="nouvellePression">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>this.setPressionBallon(nouvellePression);&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8RG2or0tEeumIcEGETCkMg" name="setSport" specification="_8QLpkL0tEeumIcEGETCkMg">
+              <ownedParameter xmi:id="_8RG2o70tEeumIcEGETCkMg" name="nouveauSport" type="_8Ge7AL0tEeumIcEGETCkMg"/>
+              <language>java</language>
+              <body>if (this.sport != null &amp;&amp; this.sport.getSetBallons().contains(this)) {&#xD;
+			this.sport.retirerBallon(this);&#xD;
+		}&#xD;
+		this.sport = nouveauSport;&#xD;
+		if (nouveauSport!=null &amp;&amp; !nouveauSport.getSetBallons().contains(this)) {&#xD;
+			nouveauSport.ajouterBallon(this);&#xD;
+		}&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_8GapkL0tEeumIcEGETCkMg" name="Ballon" method="_8RDMQL0tEeumIcEGETCkMg">
+              <eAnnotations xmi:id="_8Gb3sL0tEeumIcEGETCkMg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_8Gb3sb0tEeumIcEGETCkMg" key="create"/>
+              </eAnnotations>
+              <ownedComment xmi:id="_8ROycL0tEeumIcEGETCkMg">
+                <body>Constructeur d'objets de classe Ballon</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_8Gb3sr0tEeumIcEGETCkMg" type="_8GUi8L0tEeumIcEGETCkMg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_8GcewL0tEeumIcEGETCkMg" name="reglerBallon" method="_8RGPkL0tEeumIcEGETCkMg">
+              <ownedParameter xmi:id="_8Gcewb0tEeumIcEGETCkMg" name="pression">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_8GdF0L0tEeumIcEGETCkMg" name="taille">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_8GdF0b0tEeumIcEGETCkMg" name="changerPressionBallon" method="_8RG2oL0tEeumIcEGETCkMg">
+              <ownedParameter xmi:id="_8Gds4L0tEeumIcEGETCkMg" name="nouvellePression">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_8QLpkL0tEeumIcEGETCkMg" name="setSport" method="_8RG2or0tEeumIcEGETCkMg">
+              <ownedParameter xmi:id="_8QLpkb0tEeumIcEGETCkMg" name="nouveauSport" type="_8Ge7AL0tEeumIcEGETCkMg"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_8Ge7AL0tEeumIcEGETCkMg" name="Sport">
+            <ownedComment xmi:id="_8ROycb0tEeumIcEGETCkMg">
+              <body>&#xD;
+ *&#xD;
+@author Nikola,Tom&#xD;
+@version</body>
+            </ownedComment>
+            <ownedAttribute xmi:id="_8Qnucb0tEeumIcEGETCkMg" name="nom" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_8QoVgb0tEeumIcEGETCkMg" name="setBallons" type="_8GUi8L0tEeumIcEGETCkMg" isReadOnly="true" association="_8RWHMb0tEeumIcEGETCkMg">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8Qo8kL0tEeumIcEGETCkMg" value="*"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8RG2pL0tEeumIcEGETCkMg" name="Sport" specification="_8GgJIL0tEeumIcEGETCkMg">
+              <ownedParameter xmi:id="_8RG2pb0tEeumIcEGETCkMg" name="nom">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_8RG2pr0tEeumIcEGETCkMg" type="_8Ge7AL0tEeumIcEGETCkMg" direction="return"/>
+              <language>java</language>
+              <body>this.nom = nom;&#xD;
+		this.setBallons = new HashSet&lt;>();&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8RHdsL0tEeumIcEGETCkMg" name="ajouterBallon" specification="_8QPT8b0tEeumIcEGETCkMg">
+              <ownedParameter xmi:id="_8RHdsb0tEeumIcEGETCkMg" name="ballons" type="_8GUi8L0tEeumIcEGETCkMg">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8RHdsr0tEeumIcEGETCkMg" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>for (Ballon ballon : ballons) {&#xD;
+			this.setBallons.add(ballon);&#xD;
+			if (ballon.getSport() != this) {&#xD;
+				ballon.setSport(this);&#xD;
+			}&#xD;
+		}&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8RHds70tEeumIcEGETCkMg" name="retirerBallon" specification="_8QQiEb0tEeumIcEGETCkMg">
+              <ownedParameter xmi:id="_8RHdtL0tEeumIcEGETCkMg" name="ballon" type="_8GUi8L0tEeumIcEGETCkMg"/>
+              <language>java</language>
+              <body>this.setBallons.remove(ballon);&#xD;
+		if (ballon.getSport() != null) {&#xD;
+			ballon.setSport(null);&#xD;
+		}&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8RHdtb0tEeumIcEGETCkMg" name="getCategorie" specification="_8QRJIL0tEeumIcEGETCkMg">
+              <ownedParameter xmi:id="_8RHdtr0tEeumIcEGETCkMg" name="ballon" type="_8GUi8L0tEeumIcEGETCkMg"/>
+              <ownedParameter xmi:id="_8RHdt70tEeumIcEGETCkMg" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>if (ballon.getTailleBallon() == 3) {&#xD;
+			return &quot;U11&quot;;&#xD;
+		} else if (ballon.getTailleBallon() == 5) {&#xD;
+			return &quot;Adulte&quot;;&#xD;
+		} else {&#xD;
+			return &quot;Inconnu&quot;;&#xD;
+		}&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8RIEwL0tEeumIcEGETCkMg" name="getSport" specification="_8GhXQL0tEeumIcEGETCkMg">
+              <ownedParameter xmi:id="_8RIEwb0tEeumIcEGETCkMg" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return nom;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_8GgJIL0tEeumIcEGETCkMg" name="Sport" method="_8RG2pL0tEeumIcEGETCkMg">
+              <eAnnotations xmi:id="_8GgJIr0tEeumIcEGETCkMg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_8GgJI70tEeumIcEGETCkMg" key="create"/>
+              </eAnnotations>
+              <ownedComment xmi:id="_8ROycr0tEeumIcEGETCkMg">
+                <body>Constructeur d'objets de classe Sport</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_8GgJIb0tEeumIcEGETCkMg" name="nom">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_8GgwML0tEeumIcEGETCkMg" type="_8Ge7AL0tEeumIcEGETCkMg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_8GhXQL0tEeumIcEGETCkMg" name="getSport" method="_8RIEwL0tEeumIcEGETCkMg">
+              <ownedParameter xmi:id="_8GhXQb0tEeumIcEGETCkMg" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_8QPT8b0tEeumIcEGETCkMg" name="ajouterBallon" method="_8RHdsL0tEeumIcEGETCkMg">
+              <ownedParameter xmi:id="_8QPT8r0tEeumIcEGETCkMg" name="ballons" type="_8GUi8L0tEeumIcEGETCkMg">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8QP7Ab0tEeumIcEGETCkMg" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_8QQiEb0tEeumIcEGETCkMg" name="retirerBallon" method="_8RHds70tEeumIcEGETCkMg">
+              <ownedParameter xmi:id="_8QQiEr0tEeumIcEGETCkMg" name="ballon" type="_8GUi8L0tEeumIcEGETCkMg"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_8QRJIL0tEeumIcEGETCkMg" name="getCategorie" method="_8RHdtb0tEeumIcEGETCkMg">
+              <ownedParameter xmi:id="_8QRJIb0tEeumIcEGETCkMg" name="ballon" type="_8GUi8L0tEeumIcEGETCkMg"/>
+              <ownedParameter xmi:id="_8QRJIr0tEeumIcEGETCkMg" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_8RU5EL0tEeumIcEGETCkMg" name="" memberEnd="_8RU5Eb0tEeumIcEGETCkMg _8QnucL0tEeumIcEGETCkMg">
+            <ownedEnd xmi:id="_8RU5Eb0tEeumIcEGETCkMg" name="" type="_8GUi8L0tEeumIcEGETCkMg" association="_8RU5EL0tEeumIcEGETCkMg"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_8RWHMb0tEeumIcEGETCkMg" name="" memberEnd="_8RWHMr0tEeumIcEGETCkMg _8QoVgb0tEeumIcEGETCkMg">
+            <ownedEnd xmi:id="_8RWHMr0tEeumIcEGETCkMg" name="" type="_8Ge7AL0tEeumIcEGETCkMg" association="_8RWHMb0tEeumIcEGETCkMg"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_8FzlkL0tEeumIcEGETCkMg" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_8Fzlkb0tEeumIcEGETCkMg" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_8QMQoL0tEeumIcEGETCkMg" name="HashSet"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_8QOF0b0tEeumIcEGETCkMg" name="Set"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_8QRwML0tEeumIcEGETCkMg" name="ArrayDeque"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_8QSXQb0tEeumIcEGETCkMg" name="Deque"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_8QkEEL0tEeumIcEGETCkMg" name="lang">
+        <packagedElement xmi:type="uml:Class" xmi:id="_8QkrIL0tEeumIcEGETCkMg" name="IllegalArgumentException"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_8F9WkL0tEeumIcEGETCkMg" name="lombok">
+      <packagedElement xmi:type="uml:Package" xmi:id="_8F99oL0tEeumIcEGETCkMg" name="extern">
+        <packagedElement xmi:type="uml:Package" xmi:id="_8F99ob0tEeumIcEGETCkMg" name="log4j">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_8QUMcL0tEeumIcEGETCkMg" name="Log4j"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_8QS-Ub0tEeumIcEGETCkMg" name="Getter"/>
+    </packagedElement>
+    <profileApplication xmi:id="_76RD8L0tEeumIcEGETCkMg">
+      <eAnnotations xmi:id="_76UuUL0tEeumIcEGETCkMg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_76lNAL0tEeumIcEGETCkMg" base_Package="_7fksAL0tEeumIcEGETCkMg">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_8Gnd4L0tEeumIcEGETCkMg" base_Element="_8GmPwL0tEeumIcEGETCkMg"/>
+  <UMLLabProfile:StyledElement xmi:id="_8GosBL0tEeumIcEGETCkMg" base_Element="_8GoE8L0tEeumIcEGETCkMg"/>
+  <UMLLabProfile:StyledElement xmi:id="_8GpTEr0tEeumIcEGETCkMg" base_Element="_8GpTEL0tEeumIcEGETCkMg"/>
+  <UMLLabProfile:StyledElement xmi:id="_8Gp6Ib0tEeumIcEGETCkMg" base_Element="_8Gp6IL0tEeumIcEGETCkMg"/>
+  <UMLLabProfile:Annotations xmi:id="_8GqhML0tEeumIcEGETCkMg" base_Element="_8GmPwL0tEeumIcEGETCkMg">
+    <annotations xmi:id="_8GqhMb0tEeumIcEGETCkMg" name="Log4j"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_8HC7sL0tEeumIcEGETCkMg" base_Element="_8HCUoL0tEeumIcEGETCkMg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_8HOh4L0tEeumIcEGETCkMg" base_Element="_8HN60L0tEeumIcEGETCkMg"/>
+  <UMLLabProfile:Reference xmi:id="_8QOF0L0tEeumIcEGETCkMg" base_Element="_8QMQoL0tEeumIcEGETCkMg"/>
+  <UMLLabProfile:Reference xmi:id="_8QPT8L0tEeumIcEGETCkMg" base_Element="_8QOF0b0tEeumIcEGETCkMg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_8QP7AL0tEeumIcEGETCkMg" base_Element="_8QPT8b0tEeumIcEGETCkMg"/>
+  <UMLLabProfile:Array xmi:id="_8QQiEL0tEeumIcEGETCkMg" base_Element="_8QPT8r0tEeumIcEGETCkMg"/>
+  <UMLLabProfile:Reference xmi:id="_8QSXQL0tEeumIcEGETCkMg" base_Element="_8QRwML0tEeumIcEGETCkMg"/>
+  <UMLLabProfile:Reference xmi:id="_8QS-UL0tEeumIcEGETCkMg" base_Element="_8QSXQb0tEeumIcEGETCkMg"/>
+  <UMLLabProfile:Reference xmi:id="_8QTlYL0tEeumIcEGETCkMg" base_Element="_8QS-Ub0tEeumIcEGETCkMg"/>
+  <UMLLabProfile:Reference xmi:id="_8QUzgL0tEeumIcEGETCkMg" base_Element="_8QUMcL0tEeumIcEGETCkMg"/>
+  <UMLLabProfile:StyledElement xmi:id="_8QWBoL0tEeumIcEGETCkMg" base_Element="_8QVakL0tEeumIcEGETCkMg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_8Qa6IL0tEeumIcEGETCkMg" base_Element="_8QZE8L0tEeumIcEGETCkMg"/>
+  <UMLLabProfile:Array xmi:id="_8QbhML0tEeumIcEGETCkMg" dimensions="1" base_Element="_8QZE8b0tEeumIcEGETCkMg"/>
+  <UMLLabProfile:Reference xmi:id="_8QlSML0tEeumIcEGETCkMg" base_Element="_8QkrIL0tEeumIcEGETCkMg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_8QoVgL0tEeumIcEGETCkMg" base_Element="_8Qnucb0tEeumIcEGETCkMg"/>
+  <UMLLabProfile:StyledElement xmi:id="_8QqKsr0tEeumIcEGETCkMg" base_Element="_8QqKsL0tEeumIcEGETCkMg"/>
+  <UMLLabProfile:Generics xmi:id="_8QqxwL0tEeumIcEGETCkMg" genericsValue="AbstractMunition" base_Element="_8QqKs70tEeumIcEGETCkMg"/>
+  <UMLLabProfile:Annotations xmi:id="_8Qr_4L0tEeumIcEGETCkMg" base_Element="_8QqKs70tEeumIcEGETCkMg">
+    <annotations xmi:id="_8Qr_4b0tEeumIcEGETCkMg" name="Getter"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_8Qt1Eb0tEeumIcEGETCkMg" base_Element="_8Qt1EL0tEeumIcEGETCkMg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_8QucIL0tEeumIcEGETCkMg" name="getMecaniciens" method="_8RKhAL0tEeumIcEGETCkMg">
+      <ownedParameter xmi:id="_8QucIb0tEeumIcEGETCkMg" type="_8GtkgL0tEeumIcEGETCkMg" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8QvDML0tEeumIcEGETCkMg" value="*"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_8QvqQb0tEeumIcEGETCkMg" base_Element="_8QvqQL0tEeumIcEGETCkMg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_8QwRUL0tEeumIcEGETCkMg" base_Element="_8QvqQr0tEeumIcEGETCkMg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_8Q6CUL0tEeumIcEGETCkMg" base_Element="_8Q5bQ70tEeumIcEGETCkMg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_8Q6pYb0tEeumIcEGETCkMg" base_Element="_8Q6pYL0tEeumIcEGETCkMg"/>
+  <uml:OpaqueBehavior xmi:id="_8RKhAL0tEeumIcEGETCkMg" name="getMecaniciens" specification="_8QucIL0tEeumIcEGETCkMg">
+    <ownedParameter xmi:id="_8RLIEL0tEeumIcEGETCkMg" type="_8GtkgL0tEeumIcEGETCkMg" direction="return">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8RLIEb0tEeumIcEGETCkMg" value="*"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return Collections.unmodifiableSet(mecaniciens);&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:Reference xmi:id="_8RWHML0tEeumIcEGETCkMg" base_Element="_8RU5EL0tEeumIcEGETCkMg"/>
+  <UMLLabProfile:Reference xmi:id="_8RWuQL0tEeumIcEGETCkMg" base_Element="_8RWHMb0tEeumIcEGETCkMg"/>
+  <UMLLabProfile:Reference xmi:id="_8RYjcL0tEeumIcEGETCkMg" base_Element="_8RXVUL0tEeumIcEGETCkMg"/>
+  <UMLLabProfile:Reference xmi:id="_8RZxkL0tEeumIcEGETCkMg" base_Element="_8RYjcb0tEeumIcEGETCkMg"/>
+  <UMLLabProfile:Reference xmi:id="_8RcN0L0tEeumIcEGETCkMg" base_Element="_8RaYoL0tEeumIcEGETCkMg"/>
+</xmi:XMI>
