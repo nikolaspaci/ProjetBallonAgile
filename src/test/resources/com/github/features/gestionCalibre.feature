@@ -1,6 +1,6 @@
 @tag
 Feature: Compatibilité calibre char et calibre munitions
-	En tant que mecanicien
+  En tant que mecanicien
   Je veux pouvoir ajouter des munitions de calibre inferieur ou egale au calibre du char
   Afin que les munitions rentrent dans la caisse de munitions du char
 

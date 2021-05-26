@@ -11,7 +11,7 @@ Feature: Accepter les differentes munitions disponibles pour un char
     And le char d attaque de calibre <calibre> fabrique par <fabriquant>
     And sa caisse de munitions contient deja une munition de type <typeMunitionAncien>
     When il veut utiliser un <typeMunitionNouveau> en tant que munition
-    Then la munition de nouveau type est bien ajoutée dans la caisse a munition du char
+    Then la munition de nouveau type est bien ajoutee dans la caisse a munition du char
 
     Examples: 
       | nomMecanicien  | fabriquant | calibre | typeMunitionAncien | typeMunitionNouveau |
